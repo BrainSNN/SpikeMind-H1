@@ -1,0 +1,11 @@
+[
+  {
+    "doc_id": "ctgov:sampleNCT1",
+    "source": "clinicaltrials",
+    "source_id": "sampleNCT1",
+    "title": "Exercise and sertraline for major depressive disorder",
+    "abstract": "This study evaluates exercise and sertraline for treatment-resistant depression and major depressive disorder. Outcome measures include PHQ-9.",
+    "url": "https://example.org/ctgov/sampleNCT1",
+    "metadata": {"sample": true, "conditions": ["major depressive disorder"], "interventions": ["exercise", "sertraline"]}
+  }
+]

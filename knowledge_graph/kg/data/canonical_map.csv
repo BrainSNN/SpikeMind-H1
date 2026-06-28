@@ -1,0 +1,37 @@
+raw_term,canonical_id,canonical_name,entity_type
+mdd,D003865,major depressive disorder,disease
+major depression,D003865,major depressive disorder,disease
+unipolar depression,D003865,major depressive disorder,disease
+major depressive disorder,D003865,major depressive disorder,disease
+trd,D0000001,treatment-resistant depression,disease
+treatment-resistant depression,D0000001,treatment-resistant depression,disease
+depressive disorder,D003866,depressive disorder,disease
+low mood,S0000001,sadness,symptom
+sadness,S0000001,sadness,symptom
+loss of interest,S0000002,anhedonia,symptom
+loss of pleasure,S0000002,anhedonia,symptom
+anhedonia,S0000002,anhedonia,symptom
+insomnia,S0000003,sleep disturbance,symptom
+sleep problems,S0000003,sleep disturbance,symptom
+sleep disturbance,S0000003,sleep disturbance,symptom
+stress,R0000001,psychological stress,risk_factor
+psychological stress,R0000001,psychological stress,risk_factor
+loneliness,R0000002,social isolation,risk_factor
+social isolation,R0000002,social isolation,risk_factor
+family history,R0000003,family history,risk_factor
+psychotherapy,T0000001,psychotherapy,treatment
+cbt,T0000002,cognitive behavioral therapy,treatment
+cognitive behavioral therapy,T0000002,cognitive behavioral therapy,treatment
+exercise,T0000003,exercise,treatment
+prozac,DR000001,fluoxetine,drug
+fluoxetine,DR000001,fluoxetine,drug
+zoloft,DR000002,sertraline,drug
+sertraline,DR000002,sertraline,drug
+lexapro,DR000003,escitalopram,drug
+escitalopram,DR000003,escitalopram,drug
+patient health questionnaire-9,SC000001,phq-9,scale
+phq-9,SC000001,phq-9,scale
+hamilton depression rating scale,SC000002,hamd,scale
+hamd,SC000002,hamd,scale
+eeg,BM000001,eeg feature,biomarker
+eeg feature,BM000001,eeg feature,biomarker

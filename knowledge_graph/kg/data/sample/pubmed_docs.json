@@ -1,0 +1,20 @@
+[
+  {
+    "doc_id": "pubmed:sample1",
+    "source": "pubmed",
+    "source_id": "sample1",
+    "title": "EEG features and major depressive disorder",
+    "abstract": "Major depressive disorder is associated with EEG biomarkers, sadness, anhedonia, sleep disturbance, and fatigue. PHQ-9 and HAMD are commonly used. Psychotherapy and fluoxetine may improve depression symptoms.",
+    "url": "https://example.org/pubmed/sample1",
+    "metadata": {"sample": true}
+  },
+  {
+    "doc_id": "pubmed:sample2",
+    "source": "pubmed",
+    "source_id": "sample2",
+    "title": "Psychological stress and social isolation in depression",
+    "abstract": "Depressive disorder is associated with psychological stress, family history, and social isolation as risk factors. Cognitive behavioral therapy can treat major depression.",
+    "url": "https://example.org/pubmed/sample2",
+    "metadata": {"sample": true}
+  }
+]

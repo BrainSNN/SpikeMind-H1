@@ -1,0 +1,738 @@
+:ID,name,:LABEL,aliases,description,source
+D003866,depressive disorder,Entity:Disease,"depression disorder, depressive disorder",A depressive disorder umbrella concept.,seed
+D003865,major depressive disorder,Entity:Disease,"major depression, major depressive disorder, mdd, unipolar depression",Major depressive disorder.,seed
+D0000001,treatment-resistant depression,Entity:Disease,"trd, treatment-resistant depression",Depression with insufficient response to prior treatment.,seed
+S0000001,sadness,Entity:Symptom,"low mood, sadness",Depressed or sad mood.,seed
+S0000002,anhedonia,Entity:Symptom,"anhedonia, loss of interest, loss of pleasure",Reduced interest or pleasure.,seed
+ent_8a621b79f01ba6ff,fatigue,Entity:Symptom,"fatigue, tiredness",Low energy or fatigue.,seed
+S0000003,sleep disturbance,Entity:Symptom,"insomnia, sleep disturbance, sleep problems",Sleep-related disturbance.,seed
+R0000001,psychological stress,Entity:Risk_Factor,"psychological stress, stress",Psychological stress exposure.,seed
+R0000002,social isolation,Entity:Risk_Factor,"loneliness, social isolation",Reduced social connectedness.,seed
+R0000003,family history,Entity:Risk_Factor,"family history, genetic predisposition",Family history of mental disorders.,seed
+T0000001,psychotherapy,Entity:Treatment,"psychotherapy, talk therapy",Psychological treatment.,seed
+T0000002,cognitive behavioral therapy,Entity:Treatment,"cbt, cognitive behavioral therapy",A common psychotherapy for depression.,seed
+T0000003,exercise,Entity:Treatment,"exercise, physical activity",Exercise-based intervention.,seed
+DR000001,fluoxetine,Entity:Drug,"fluoxetine, prozac",An SSRI antidepressant.,seed
+DR000002,sertraline,Entity:Drug,"sertraline, zoloft",An SSRI antidepressant.,seed
+DR000003,escitalopram,Entity:Drug,"escitalopram, lexapro",An SSRI antidepressant.,seed
+SC000001,phq-9,Entity:Scale,"patient health questionnaire-9, phq-9",Depression screening instrument.,seed
+SC000002,hamd,Entity:Scale,"hamd, hamilton depression rating scale",Clinician-rated depression scale.,seed
+BM000001,eeg feature,Entity:Biomarker,"eeg, eeg feature, electroencephalography feature",EEG-derived biomarker or feature.,seed
+ent_633cb619ffa7d5a3,hopelessness,Entity:Symptom,"despair, hopelessness",Feeling of hopelessness.,seed
+ent_9606bd1532d45bad,guilt,Entity:Symptom,"feelings of guilt, guilt",Excessive guilt.,seed
+ent_d3dc69905ee167d9,suicidal thoughts,Entity:Symptom,"suicidal ideation, suicidal thoughts",Thoughts of self-harm.,seed
+ent_18e1dd4ae37c4149,appetite change,Entity:Symptom,"appetite change, increased appetite, loss of appetite",Changes in appetite.,seed
+ent_e20112e744f16c67,weight loss,Entity:Symptom,"unintended weight loss, weight loss",Unintended weight loss.,seed
+ent_7fa225580b91e41a,concentration problems,Entity:Symptom,"concentration problems, difficulty concentrating",Difficulty concentrating.,seed
+ent_2358a9d9c825264e,antidepressants,Entity:Treatment,"antidepressant medication, antidepressants",Pharmacological treatment for depression.,seed
+ent_de91122d9f8deb0f,electroconvulsive therapy,Entity:Treatment,"ect, electroconvulsive therapy",Electrical stimulation treatment.,seed
+ent_9a51bf8a0d073c82,transcranial magnetic stimulation,Entity:Treatment,"tms, transcranial magnetic stimulation",Magnetic stimulation treatment.,seed
+ent_b59c09ed4f997058,paroxetine,Entity:Drug,"paroxetine, paxil",An SSRI antidepressant.,seed
+ent_c1ddcbf3b2a0261b,venlafaxine,Entity:Drug,"effexor, venlafaxine",An SNRI antidepressant.,seed
+ent_049faf9d625da6f4,bupropion,Entity:Drug,"bupropion, wellbutrin",An NDRI antidepressant.,seed
+ent_019d439be2c7e49a,bipolar disorder,Entity:Disease,"bipolar disorder, manic depression",Mood disorder with manic and depressive episodes.,seed
+ent_9042ab864b3eea6d,dysthymia,Entity:Disease,"dysthymia, persistent depressive disorder",Chronic mild depression.,seed
+ent_3c34679de46ddbcc,postpartum depression,Entity:Disease,"perinatal depression, postpartum depression",Depression after childbirth.,seed
+ent_bc9a0768a969e537,seasonal affective disorder,Entity:Disease,"sad, seasonal affective disorder",Depression related to seasonal changes.,seed
+ent_85b0fd202b2b093c,trauma,Entity:Risk_Factor,"childhood trauma, trauma",History of traumatic experiences.,seed
+ent_f641feb1798ec047,inflammation,Entity:Risk_Factor,"chronic inflammation, inflammation",Inflammatory processes.,seed
+ent_b06456b185ec5f0b,beck depression inventory,Entity:Scale,"bdi, beck depression inventory",Self-report depression scale.,seed
+ent_d44852bb0fd2d331,montgomery-asberg depression rating scale,Entity:Scale,"madrs, montgomery-asberg depression rating scale",Clinician-rated depression scale.,seed
+ent_8d5d23d4795bfbd6,cortisol,Entity:Biomarker,"cortisol, stress hormone",Hormone biomarker for stress.,seed
+ent_ef632ae8fa4d34ab,serotonin,Entity:Biomarker,"5-ht, serotonin",Neurotransmitter biomarker.,seed
+ent_95cc0e5c52ba7aaa,sleep staging,Entity:Task,"sleep stage classification, sleep staging","The process of classifying sleep into Wake, N1, N2, N3, and REM stages.",seed
+ent_489d89558dd431c5,rem sleep,Entity:Sleep_Stage,"rapid eye movement, rapid eye movement sleep, rem, rem sleep","A sleep stage associated with vivid dreaming, rapid eye movements, and low muscle tone.",seed
+ent_a311694f97362b13,n1 sleep,Entity:Sleep_Stage,"light sleep, n1, n1 sleep, stage n1","The lightest non-REM sleep stage, often marking the transition from wakefulness to sleep.",seed
+ent_9d7e839e3f2b793d,n2 sleep,Entity:Sleep_Stage,"n2, n2 sleep, stage n2",A stable non-REM sleep stage characterized by sleep spindles and K-complexes.,seed
+ent_d6133211f46f1123,n3 sleep,Entity:Sleep_Stage,"deep sleep, n3, n3 sleep, slow wave sleep, stage n3",Deep non-REM sleep characterized by slow waves and restorative processes.,seed
+ent_4657c5e99aff24cc,dreaming,Entity:Sleep_Symptom,"dream a lot, dreaming, frequent dreaming, many dreams, vivid dreams",Frequent or vivid dreaming reported by the subject.,seed
+ent_34634bfbb8e35fb8,nocturnal awakening,Entity:Sleep_Symptom,"easy to wake up, frequent awakenings, nocturnal awakening, wake up at night, waking up during the night",Waking up repeatedly during the night.,seed
+ent_6031329329a3e140,sleep fragmentation,Entity:Sleep_Pattern,"broken sleep, fragmented sleep, interrupted sleep, sleep fragmentation",A disrupted sleep architecture with frequent awakenings or arousals.,seed
+ent_7fb346bc8fa9b27d,sleep spindle,Entity:Eeg_Feature,"sleep spindle, sleep spindles",A hallmark EEG feature of N2 sleep.,seed
+ent_8f541ecc0bcbaa45,k-complex,Entity:Eeg_Feature,"k complex, k-complex, k-complexes",A hallmark EEG waveform commonly seen in N2 sleep.,seed
+ent_6f9479ee9e4d6b7d,slow wave,Entity:Eeg_Feature,"delta wave, delta waves, slow wave, slow waves",A low-frequency high-amplitude EEG feature associated with N3 sleep.,seed
+ent_7a392e232e4d7306,sleep onset insomnia,Entity:Sleep_Symptom,"initial insomnia, sleep onset insomnia",Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_ca0246b505bb4e60,sleep maintenance insomnia,Entity:Sleep_Symptom,"middle insomnia, sleep maintenance insomnia",Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_f79237a2d3df3b9d,early morning awakening,Entity:Sleep_Symptom,"early morning awakening, ema",Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_0f03b7dcd976fdea,terminal insomnia,Entity:Sleep_Symptom,terminal insomnia,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_12e034920da98f49,non-restorative sleep,Entity:Sleep_Symptom,non-restorative sleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_b839bcce4458c6ae,restless sleep,Entity:Sleep_Symptom,restless sleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_0db42e312c00dbfd,difficulty falling asleep,Entity:Sleep_Symptom,difficulty falling asleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_822d0021b37a333a,difficulty staying asleep,Entity:Sleep_Symptom,difficulty staying asleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_166163965c224d23,prolonged sleep latency,Entity:Sleep_Symptom,prolonged sleep latency,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_3d2045e6e019d8aa,frequent nocturnal arousals,Entity:Sleep_Symptom,frequent nocturnal arousals,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_0169a52f4d5228dc,middle-of-the-night awakening,Entity:Sleep_Symptom,middle-of-the-night awakening,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_49c512f6d1003424,insufficient sleep,Entity:Sleep_Symptom,insufficient sleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_5919005985315349,chronic insomnia,Entity:Sleep_Symptom,chronic insomnia,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_64f3d7092ba743eb,acute insomnia,Entity:Sleep_Symptom,acute insomnia,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_b90257e2c16962c3,psychophysiological insomnia,Entity:Sleep_Symptom,psychophysiological insomnia,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_dec9605d973b0a02,paradoxical insomnia,Entity:Sleep_Symptom,paradoxical insomnia,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_03d6ded8aab756ce,comorbid insomnia,Entity:Sleep_Symptom,comorbid insomnia,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_7c167ebcaa4b3836,subthreshold insomnia,Entity:Sleep_Symptom,subthreshold insomnia,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_d630d821dd5c9cc2,sleep inertia,Entity:Sleep_Symptom,sleep inertia,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_abc22cf8530b2e92,morning grogginess,Entity:Sleep_Symptom,morning grogginess,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_5ce7b0f697dbd406,daytime sleepiness,Entity:Sleep_Symptom,daytime sleepiness,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_e4c0e5ac5a5aa6f6,excessive daytime sleepiness,Entity:Sleep_Symptom,"eds, excessive daytime sleepiness",Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_52526c57067428a0,hypersomnia,Entity:Sleep_Symptom,hypersomnia,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_83c04c47a0983ce6,prolonged sleep duration,Entity:Sleep_Symptom,prolonged sleep duration,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_4cb009f567f432a4,short sleep duration,Entity:Sleep_Symptom,short sleep duration,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_af479cdb36b39324,irregular sleep schedule,Entity:Sleep_Symptom,irregular sleep schedule,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_7a8033c1e883867e,social jet lag,Entity:Sleep_Symptom,social jet lag,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_0789519763b075e6,jet lag disorder,Entity:Sleep_Symptom,jet lag disorder,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_05126e1b691caa2f,shift work sleep disorder,Entity:Sleep_Symptom,shift work sleep disorder,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_013104d540a220d4,circadian misalignment,Entity:Sleep_Symptom,circadian misalignment,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_dd2e8d3665b896d1,delayed sleep phase,Entity:Sleep_Symptom,delayed sleep phase,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_ab2ac0d12ed38992,advanced sleep phase,Entity:Sleep_Symptom,advanced sleep phase,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_d41cb136c6678015,irregular sleep-wake rhythm,Entity:Sleep_Symptom,irregular sleep-wake rhythm,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_5a33daae8c45d6ca,non-24-hour sleep-wake disorder,Entity:Sleep_Symptom,non-24-hour sleep-wake disorder,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_9d4f3d34faf7b2c8,weekend catch-up sleep,Entity:Sleep_Symptom,weekend catch-up sleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_e0dc6e40032d307c,sleep debt,Entity:Sleep_Symptom,sleep debt,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_53daffb0134dfb6a,sleep deprivation,Entity:Sleep_Symptom,sleep deprivation,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_3f8811626ee614dd,fragmented sleep continuity,Entity:Sleep_Symptom,fragmented sleep continuity,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_f2693dcb4b81219f,reduced sleep efficiency,Entity:Sleep_Symptom,reduced sleep efficiency,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_f989ff7741f00857,increased wake after sleep onset,Entity:Sleep_Symptom,increased wake after sleep onset,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_6d0fd494c7f1c451,WASO,Entity:Sleep_Symptom,WASO,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_6e23de1b2cda746a,sleep state misperception,Entity:Sleep_Symptom,sleep state misperception,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_e6ae933004fb83eb,sleep dissatisfaction,Entity:Sleep_Symptom,sleep dissatisfaction,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_d736884429f082d9,poor sleep quality,Entity:Sleep_Symptom,poor sleep quality,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_895c17a63c1b6796,insufficient deep sleep,Entity:Sleep_Symptom,insufficient deep sleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_2d46aaa00ecb788f,reduced rem sleep,Entity:Sleep_Symptom,reduced rem sleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_5f2d76930ecd2526,increased rem density,Entity:Sleep_Symptom,increased rem density,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_2f460e0fbcf9584a,shortened rem latency,Entity:Sleep_Symptom,shortened rem latency,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_38f31e0665cfb3e9,prolonged rem latency,Entity:Sleep_Symptom,prolonged rem latency,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_640222d7c499d841,nightmare frequency,Entity:Sleep_Symptom,nightmare frequency,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_d545b4a3ccc88e79,disturbing dreams,Entity:Sleep_Symptom,disturbing dreams,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_b5af445b5a7b83b2,sleep talking,Entity:Sleep_Symptom,sleep talking,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_7120f9ee2e34822b,somniloquy,Entity:Sleep_Symptom,somniloquy,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_9b363a0971e3e474,sleepwalking,Entity:Sleep_Symptom,sleepwalking,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_9378e4225709a165,somnambulism,Entity:Sleep_Symptom,somnambulism,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_1634e6dd8054891b,confusional arousals,Entity:Sleep_Symptom,confusional arousals,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_7e912c262c3cbcca,night terrors,Entity:Sleep_Symptom,night terrors,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_bac4d02d7ec98e06,REM sleep behavior disorder,Entity:Sleep_Symptom,REM sleep behavior disorder,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_69bb81edd546a017,restless legs syndrome,Entity:Sleep_Symptom,"restless legs syndrome, rls",Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_b30961356cf3578b,periodic limb movement disorder,Entity:Sleep_Symptom,periodic limb movement disorder,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_718b3462035b9a70,bruxism during sleep,Entity:Sleep_Symptom,bruxism during sleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_aa769e4c188f7b12,sleep-related teeth grinding,Entity:Sleep_Symptom,sleep-related teeth grinding,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_2d1ac056acca2e72,sleep-related leg cramps,Entity:Sleep_Symptom,sleep-related leg cramps,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_d4ff8238b6112b7f,nocturia-related awakening,Entity:Sleep_Symptom,nocturia-related awakening,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_19ccdefe7159b149,pain-related awakening,Entity:Sleep_Symptom,pain-related awakening,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_39cd0c77aec14098,hot-flash awakening,Entity:Sleep_Symptom,hot-flash awakening,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_f59ead748ff0ecde,anxiety-related awakening,Entity:Sleep_Symptom,anxiety-related awakening,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_cbccfbb79f56a08d,panic awakening,Entity:Sleep_Symptom,panic awakening,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_a7a752c0dd3b6103,rumination at bedtime,Entity:Sleep_Symptom,rumination at bedtime,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_641174d64bb48c8b,bedtime worry,Entity:Sleep_Symptom,bedtime worry,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_f0bddbd7752ee432,pre-sleep cognitive arousal,Entity:Sleep_Symptom,pre-sleep cognitive arousal,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_5ce8681e39824360,pre-sleep somatic arousal,Entity:Sleep_Symptom,pre-sleep somatic arousal,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_9cffc669ce9d0791,clock watching at night,Entity:Sleep_Symptom,clock watching at night,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_72f1ff3586e00175,fear of sleeplessness,Entity:Sleep_Symptom,fear of sleeplessness,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_e8a2e899e2ae4dfd,conditioned arousal in bed,Entity:Sleep_Symptom,conditioned arousal in bed,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_949ffc90e677e4f9,hyperarousal at bedtime,Entity:Sleep_Symptom,hyperarousal at bedtime,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_bae6decbb5f3d78d,bedtime procrastination,Entity:Sleep_Symptom,bedtime procrastination,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_74826213044a48f3,inconsistent bedtime,Entity:Sleep_Symptom,inconsistent bedtime,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_ab7407698a69fcb7,inconsistent wake time,Entity:Sleep_Symptom,inconsistent wake time,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_d461316174019690,late chronotype,Entity:Sleep_Symptom,late chronotype,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_cfda9e95143670df,eveningness preference,Entity:Sleep_Symptom,eveningness preference,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_c148c0618e971c8b,morningness preference,Entity:Sleep_Symptom,morningness preference,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_65af3fe6573e8bb5,nap dependency,Entity:Sleep_Symptom,nap dependency,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_e10f51b855b0d8a8,long daytime naps,Entity:Sleep_Symptom,long daytime naps,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_9bc102a9a59dcebb,frequent daytime naps,Entity:Sleep_Symptom,frequent daytime naps,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_d04196e1e06f246d,unrefreshing naps,Entity:Sleep_Symptom,unrefreshing naps,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_46997d9147f62569,micro-sleeps,Entity:Sleep_Symptom,micro-sleeps,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_cda53a59004c2914,sleep drunkenness,Entity:Sleep_Symptom,sleep drunkenness,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_28d9ef59d77b973d,sleep paralysis,Entity:Sleep_Symptom,sleep paralysis,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_a97309c656679c8e,hypnagogic hallucinations,Entity:Sleep_Symptom,hypnagogic hallucinations,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_f61a01d4f99c80d0,hypnopompic hallucinations,Entity:Sleep_Symptom,hypnopompic hallucinations,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_56a0c6a17369e214,cataplexy-like episodes,Entity:Sleep_Symptom,cataplexy-like episodes,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_b20058f91d399fc2,snoring,Entity:Sleep_Symptom,snoring,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_acbe07a720cc5c01,witnessed apnea,Entity:Sleep_Symptom,witnessed apnea,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_187f0940543fdd0f,sleep-disordered breathing,Entity:Sleep_Symptom,sleep-disordered breathing,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_02d178042dc5469a,obstructive sleep apnea symptoms,Entity:Sleep_Symptom,obstructive sleep apnea symptoms,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_3a873f24acce4dd6,noisy breathing during sleep,Entity:Sleep_Symptom,noisy breathing during sleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_531289758de3c89b,mouth breathing during sleep,Entity:Sleep_Symptom,mouth breathing during sleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_e9f3c65df4b3d12d,dry mouth on waking,Entity:Sleep_Symptom,dry mouth on waking,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_b87f15704181effa,morning headache after sleep,Entity:Sleep_Symptom,morning headache after sleep,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_58e8c8cdfcb3ab9c,nocturnal choking sensation,Entity:Sleep_Symptom,nocturnal choking sensation,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_9c65dce869e34c17,awakening gasping for air,Entity:Sleep_Symptom,awakening gasping for air,Sleep-related symptom relevant to mood and emotion modeling.,seed
+ent_2c145e6811b83540,sleep architecture disruption,Entity:Sleep_Pattern,sleep architecture disruption,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_a5f9b761aecbf817,circadian rhythm instability,Entity:Sleep_Pattern,circadian rhythm instability,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_470750d9047aba6a,phase delay pattern,Entity:Sleep_Pattern,phase delay pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_3d537e862ad6a28c,phase advance pattern,Entity:Sleep_Pattern,phase advance pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_2e7c570faa7837a8,bimodal sleep pattern,Entity:Sleep_Pattern,bimodal sleep pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_1b1d8bb1c5b82eba,polyphasic sleep pattern,Entity:Sleep_Pattern,polyphasic sleep pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_1cd3007e83728b38,monophasic sleep pattern,Entity:Sleep_Pattern,monophasic sleep pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_6de5ba125485b892,weekend-weekday sleep discrepancy,Entity:Sleep_Pattern,weekend-weekday sleep discrepancy,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_0c808d64d2656bd6,reduced slow-wave sleep,Entity:Sleep_Pattern,reduced slow-wave sleep,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_026edd4d86029a2f,enhanced slow-wave sleep,Entity:Sleep_Pattern,enhanced slow-wave sleep,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_4c2993b39d4caff0,REM fragmentation,Entity:Sleep_Pattern,REM fragmentation,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_d05e79a5ff82026d,NREM fragmentation,Entity:Sleep_Pattern,NREM fragmentation,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_3f0fec7ea9791ad1,alpha intrusion during sleep,Entity:Sleep_Pattern,alpha intrusion during sleep,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_9194cd4338c13e0b,beta hyperarousal at night,Entity:Sleep_Pattern,beta hyperarousal at night,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_ab05bc18a044a310,low sleep spindle density,Entity:Sleep_Pattern,low sleep spindle density,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_6bbea73cd0fa49d3,high sleep spindle density,Entity:Sleep_Pattern,high sleep spindle density,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_d443fb245abf00ce,reduced K-complex occurrence,Entity:Sleep_Pattern,reduced K-complex occurrence,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_178c4ad65bf03ca3,frequent cortical arousals,Entity:Sleep_Pattern,frequent cortical arousals,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_3349501695850826,long wake bouts at night,Entity:Sleep_Pattern,long wake bouts at night,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_ab0e34d02d0a5d04,short sleep bouts,Entity:Sleep_Pattern,short sleep bouts,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_87c09df652826bb9,high sleep variability,Entity:Sleep_Pattern,high sleep variability,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_fa6fb0f23433c82c,low sleep regularity,Entity:Sleep_Pattern,low sleep regularity,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_081aebd12ae4ee5c,social schedule desynchrony,Entity:Sleep_Pattern,social schedule desynchrony,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_3905ec9339be33a9,light exposure at night,Entity:Sleep_Pattern,light exposure at night,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_e3aefd1926de2ec7,insufficient morning light,Entity:Sleep_Pattern,insufficient morning light,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_4cbf6ffcb0984eb8,screen-related sleep delay,Entity:Sleep_Pattern,screen-related sleep delay,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_2a093e57af8841a0,caffeine-related sleep delay,Entity:Sleep_Pattern,caffeine-related sleep delay,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_ffe1d5a7f11d0119,alcohol-related sleep disruption,Entity:Sleep_Pattern,alcohol-related sleep disruption,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_1fb878a1f254e145,stress-related sleep disruption,Entity:Sleep_Pattern,stress-related sleep disruption,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_b0b9c83793de64ca,pain-related sleep disruption,Entity:Sleep_Pattern,pain-related sleep disruption,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_c7656d007c494f0d,noise-related sleep disruption,Entity:Sleep_Pattern,noise-related sleep disruption,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_00f779b597a01aaa,temperature-related sleep disruption,Entity:Sleep_Pattern,temperature-related sleep disruption,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_dd801c3c0b53131a,environmental sleep disturbance,Entity:Sleep_Pattern,environmental sleep disturbance,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_ec704e5e62fe9dcf,caregiver sleep interruption,Entity:Sleep_Pattern,caregiver sleep interruption,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_ed851e3376f0fc08,postpartum sleep disruption,Entity:Sleep_Pattern,postpartum sleep disruption,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_0501da2f13193726,menopause-related sleep disturbance,Entity:Sleep_Pattern,menopause-related sleep disturbance,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_95e0cbbe4697cc5e,adolescent delayed phase pattern,Entity:Sleep_Pattern,adolescent delayed phase pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_2ed907755c5fc0c5,older-adult early awakening pattern,Entity:Sleep_Pattern,older-adult early awakening pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_5f7da33e4ed16ea4,hospital-associated sleep disruption,Entity:Sleep_Pattern,hospital-associated sleep disruption,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_d18c63f49cbebdb8,ICU sleep fragmentation,Entity:Sleep_Pattern,ICU sleep fragmentation,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_3f44ac4ab6b4496b,travel-related circadian disruption,Entity:Sleep_Pattern,travel-related circadian disruption,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_92a11294a8311ec8,exam-period sleep restriction,Entity:Sleep_Pattern,exam-period sleep restriction,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_a06b2ee7644fe329,workload-related sleep loss,Entity:Sleep_Pattern,workload-related sleep loss,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_a1c3ffff92754c37,ruminative pre-sleep pattern,Entity:Sleep_Pattern,ruminative pre-sleep pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_b9cd86b89051f7e5,anxious hypervigilant sleep pattern,Entity:Sleep_Pattern,anxious hypervigilant sleep pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_74d60f3245bcc41c,depressive hypersomnia pattern,Entity:Sleep_Pattern,depressive hypersomnia pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_c9e31913acfaf8b2,depressive insomnia pattern,Entity:Sleep_Pattern,depressive insomnia pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_bbce65aa3581df21,mixed insomnia-hypersomnia pattern,Entity:Sleep_Pattern,mixed insomnia-hypersomnia pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_8d99c70e17167ebf,stabilized sleep routine pattern,Entity:Sleep_Pattern,stabilized sleep routine pattern,Sleep pattern entity for longitudinal sleep-emotion analysis.,seed
+ent_74fac922f4f8f5f6,wake stage,Entity:Sleep_Stage,wake stage,Sleep stage or transitional stage entity.,seed
+ent_825af354c0b557db,NREM sleep,Entity:Sleep_Stage,NREM sleep,Sleep stage or transitional stage entity.,seed
+ent_45244f1b355a22b7,stage W,Entity:Sleep_Stage,stage W,Sleep stage or transitional stage entity.,seed
+ent_e7fee27a66044bf4,stage R,Entity:Sleep_Stage,stage R,Sleep stage or transitional stage entity.,seed
+ent_2559fe63d128c0c3,micro-arousal,Entity:Sleep_Stage,micro-arousal,Sleep stage or transitional stage entity.,seed
+ent_7bc5cb514ca5e9ca,sleep cycle transition,Entity:Sleep_Stage,sleep cycle transition,Sleep stage or transitional stage entity.,seed
+ent_f9f986f4f92b15fb,first sleep cycle,Entity:Sleep_Stage,first sleep cycle,Sleep stage or transitional stage entity.,seed
+ent_8d4782b07e2422d7,late-night REM period,Entity:Sleep_Stage,late-night REM period,Sleep stage or transitional stage entity.,seed
+ent_826c8943cccfdfdf,slow-wave rebound,Entity:Sleep_Stage,slow-wave rebound,Sleep stage or transitional stage entity.,seed
+ent_e06865bd04508d0a,REM rebound,Entity:Sleep_Stage,REM rebound,Sleep stage or transitional stage entity.,seed
+ent_e1d002db914edbbf,stage transition instability,Entity:Sleep_Stage,stage transition instability,Sleep stage or transitional stage entity.,seed
+ent_4d6239b78ff34bdb,N1-N2 transition,Entity:Sleep_Stage,N1-N2 transition,Sleep stage or transitional stage entity.,seed
+ent_9c7d9a0c240d82b7,N2-N3 transition,Entity:Sleep_Stage,N2-N3 transition,Sleep stage or transitional stage entity.,seed
+ent_520c65d3d7791b17,NREM-REM transition,Entity:Sleep_Stage,NREM-REM transition,Sleep stage or transitional stage entity.,seed
+ent_b9cde001a1e90a4a,sleep efficiency,Entity:Biomarker,"se, sleep efficiency",Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_b6a7b2973c47b1a4,total sleep time,Entity:Biomarker,"total sleep time, tst",Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_0acb8e46882a6bed,sleep latency,Entity:Biomarker,sleep latency,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_661da863b707846f,wake after sleep onset,Entity:Biomarker,"wake after sleep onset, waso",Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_8d9112054bdac924,arousal index,Entity:Biomarker,arousal index,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_b36ce974f86f7096,sleep spindle density,Entity:Biomarker,sleep spindle density,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_855d162a56608783,K-complex density,Entity:Biomarker,K-complex density,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_ca186358c0fc4551,delta power during sleep,Entity:Biomarker,delta power during sleep,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_9f06c1c618606139,theta power during sleep,Entity:Biomarker,theta power during sleep,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_0180fa9ae198f6ef,alpha power during sleep,Entity:Biomarker,alpha power during sleep,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_691577fbfa9f368c,beta power during sleep,Entity:Biomarker,beta power during sleep,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_a91a35a26da991b3,REM density,Entity:Biomarker,REM density,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_f5acf9adb1501e5b,REM latency,Entity:Biomarker,REM latency,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_e0df6a4280a381ef,N3 proportion,Entity:Biomarker,N3 proportion,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_146366df26ea13c8,N2 proportion,Entity:Biomarker,N2 proportion,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_3b322a481186ecf9,N1 proportion,Entity:Biomarker,N1 proportion,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_f4d3baaaf1982fbc,heart rate variability during sleep,Entity:Biomarker,heart rate variability during sleep,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_25eff632b4cc6fe2,nocturnal cortisol level,Entity:Biomarker,nocturnal cortisol level,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_a3cb4fcf6fad4ef8,dim light melatonin onset,Entity:Biomarker,"dim light melatonin onset, dlmo",Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_ac462158c200406b,actigraphy-derived sleep regularity,Entity:Biomarker,actigraphy-derived sleep regularity,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_c986c6f3534905eb,polysomnography index,Entity:Biomarker,polysomnography index,Sleep physiology biomarker supporting objective emotion-related sleep assessment.,seed
+ent_9f4939648784fae9,joy,Entity:Emotion,joy,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_7747c9c145c6e67a,happiness,Entity:Emotion,happiness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_7aa5bd4d3bb4fca3,cheerfulness,Entity:Emotion,cheerfulness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_28a3ebe8125211ac,contentment,Entity:Emotion,contentment,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_8dd0a18747c4436e,satisfaction,Entity:Emotion,satisfaction,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_cb18d9c08168c784,relief,Entity:Emotion,relief,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_423727bcef052f3d,gratitude,Entity:Emotion,gratitude,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_7f2cd8b9cfde4b62,hope,Entity:Emotion,hope,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_ba397d9948dd9ecd,optimism,Entity:Emotion,optimism,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_80f9b5ad97f83dd0,pride,Entity:Emotion,pride,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_d60defb94595ab04,amusement,Entity:Emotion,amusement,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_2b86188d05498211,awe,Entity:Emotion,awe,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_2547f9f5569eb2a4,interest,Entity:Emotion,interest,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_2c27521f953099e6,curiosity,Entity:Emotion,curiosity,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_d5a79b77339a7594,calmness,Entity:Emotion,calmness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_c70d3861f176902e,serenity,Entity:Emotion,serenity,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_7bd881e8f27eb781,tranquility,Entity:Emotion,tranquility,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_43fd6d4a3e289889,compassion,Entity:Emotion,compassion,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_d41c20abc12ce5ee,love,Entity:Emotion,love,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_a80510d19d3bb173,affection,Entity:Emotion,affection,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_8e1963a43e1eade9,warmth,Entity:Emotion,warmth,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_cfe4a33ed14fd5d5,trust,Entity:Emotion,trust,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_83eb6ef7367a927d,confidence,Entity:Emotion,confidence,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_f286c7057e0a8605,self-confidence,Entity:Emotion,self-confidence,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_a72b01afbb87c8aa,enthusiasm,Entity:Emotion,enthusiasm,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_cdd52878732cec94,excitement,Entity:Emotion,excitement,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_5a6024d21caa5a97,anticipation,Entity:Emotion,anticipation,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_984dc7f99750fb0b,motivation,Entity:Emotion,motivation,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_28fd6bff5662892b,vitality,Entity:Emotion,vitality,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_6935d5f9b2fb6558,emotional stability,Entity:Emotion,emotional stability,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_a4f1a1019567156b,depressed mood,Entity:Emotion,depressed mood,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_ad4695901e72afdd,dysphoria,Entity:Emotion,dysphoria,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_621daf0c1e88c26e,melancholy,Entity:Emotion,melancholy,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_ea47b13c440fecbd,grief,Entity:Emotion,grief,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_0ef66bb1482968ff,emptiness,Entity:Emotion,emptiness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_57d295d6d4ee382b,emotional numbness,Entity:Emotion,emotional numbness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_3cdb9c706d83c19b,anxiety,Entity:Emotion,anxiety,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_9d54260330acdc44,worry,Entity:Emotion,worry,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_2cf303d632131b1f,apprehension,Entity:Emotion,apprehension,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_8876d85b85553911,fear,Entity:Emotion,fear,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_c90ae032a38eae00,panic,Entity:Emotion,panic,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_8d5f6c95675abd0d,nervousness,Entity:Emotion,nervousness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_c440ee0e1556d7f4,tension,Entity:Emotion,tension,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_ee2d50e9cdb68b4b,irritability,Entity:Emotion,irritability,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_d0fd45739678a45b,anger,Entity:Emotion,anger,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_11fffb9fcc435091,frustration,Entity:Emotion,frustration,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_5f4639b3277a568d,hostility,Entity:Emotion,hostility,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_f4077b3c6b8b45cb,resentment,Entity:Emotion,resentment,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_1e3dd30ad2ef6e80,rage,Entity:Emotion,rage,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_5188928bde44770b,shame,Entity:Emotion,shame,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_157fd6a045eda078,self-blame,Entity:Emotion,self-blame,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_9334cc89f1c33e94,embarrassment,Entity:Emotion,embarrassment,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_304c177e94849b3a,worthlessness,Entity:Emotion,worthlessness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_80983c144f76473e,helplessness,Entity:Emotion,helplessness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_c3160a6a6f9af5db,social pain,Entity:Emotion,social pain,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_cc649062177a7723,jealousy,Entity:Emotion,jealousy,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_c45a23b2380d9451,envy,Entity:Emotion,envy,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_373da4349803832f,disappointment,Entity:Emotion,disappointment,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_c979053685b4f5b9,regret,Entity:Emotion,regret,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_2f1fde659abe90e2,bitterness,Entity:Emotion,bitterness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_cf219381fe900193,despair,Entity:Emotion,despair,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_e3cae8a9b31cc682,apathy,Entity:Emotion,apathy,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_1198be69c6a1c6db,amotivation,Entity:Emotion,amotivation,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_67c4de75e5a5f404,emotional blunting,Entity:Emotion,emotional blunting,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_5d4c8937ebfe4f23,alexithymia,Entity:Emotion,alexithymia,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_6cb8ef1daae6053f,emotional lability,Entity:Emotion,emotional lability,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_27293149938ced9a,mood swings,Entity:Emotion,mood swings,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_c09cb815870042f8,affective instability,Entity:Emotion,affective instability,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_ccc267ca7ce60801,tearfulness,Entity:Emotion,tearfulness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_b9d336b8bb15bb9f,emotional reactivity,Entity:Emotion,emotional reactivity,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_7b45ec3677df7f1e,emotional sensitivity,Entity:Emotion,emotional sensitivity,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_582f9013f10f688c,rejection sensitivity,Entity:Emotion,rejection sensitivity,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_e112220a6d85345b,rumination,Entity:Emotion,rumination,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_8ffce05436d7319d,catastrophizing,Entity:Emotion,catastrophizing,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_2bd3dae3d0244f86,self-criticism,Entity:Emotion,self-criticism,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_da07123aaf38e602,self-compassion,Entity:Emotion,self-compassion,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_2cc5a28ee1b87689,emotional avoidance,Entity:Emotion,emotional avoidance,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_a5c3245fb4d4c4c7,suppressed anger,Entity:Emotion,suppressed anger,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_c72d69343660e07b,suppressed sadness,Entity:Emotion,suppressed sadness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_801324a14f15adfc,suppressed anxiety,Entity:Emotion,suppressed anxiety,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_6d2747a996c92aea,social anxiety,Entity:Emotion,social anxiety,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_c1ca705b5fad080c,performance anxiety,Entity:Emotion,performance anxiety,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_ba11ce682aa8d09b,health anxiety,Entity:Emotion,health anxiety,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_13d7e4754708bb7b,separation anxiety,Entity:Emotion,separation anxiety,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_31facb196bd560bd,anticipatory anxiety,Entity:Emotion,anticipatory anxiety,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_b47a84a2a7e5262f,state anxiety,Entity:Emotion,state anxiety,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_b96c81d478568a93,trait anxiety,Entity:Emotion,trait anxiety,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_491e02f34fe80262,state anger,Entity:Emotion,state anger,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_8b6ffb0c8c7729bd,trait anger,Entity:Emotion,trait anger,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_26066693ed56f602,persistent sadness,Entity:Emotion,persistent sadness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_2fc22025ba3f097b,mixed affective state,Entity:Emotion,mixed affective state,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_08e452ac572f2685,blunted positive affect,Entity:Emotion,blunted positive affect,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_b1a27893b2220a8e,low positive affect,Entity:Emotion,low positive affect,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_b9a597a396baf202,high negative affect,Entity:Emotion,high negative affect,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_b4db8a8f8f5558f6,emotional exhaustion,Entity:Emotion,emotional exhaustion,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_ab6b1dae4255ee5e,burnout-related affect,Entity:Emotion,burnout-related affect,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_17b6f00bdf05b4a4,demoralization,Entity:Emotion,demoralization,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_f0a12b34ffb296f3,discouragement,Entity:Emotion,discouragement,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_1ccd4eb4dcc556bd,emotional detachment,Entity:Emotion,emotional detachment,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_f502d400bdc61b5d,emotional overwhelm,Entity:Emotion,emotional overwhelm,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_e7f5c6437801323b,emotional pain,Entity:Emotion,emotional pain,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_cf665b647de00edc,psychological distress,Entity:Emotion,psychological distress,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_a0470b6109607308,inner tension,Entity:Emotion,inner tension,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_e0f8e9fb9abe0a90,restlessness,Entity:Emotion,restlessness,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_92330c48e1dcee69,agitation,Entity:Emotion,agitation,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_eb2a229467bb0c4d,psychomotor agitation affect,Entity:Emotion,psychomotor agitation affect,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_b9c11f87dc61202b,psychomotor retardation affect,Entity:Emotion,psychomotor retardation affect,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_b917edc334f953dc,fear of failure,Entity:Emotion,fear of failure,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_5a33a97820bea1a5,fear of rejection,Entity:Emotion,fear of rejection,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_1309cd6e148ef3e4,fear of judgment,Entity:Emotion,fear of judgment,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_650de42ecaf15326,interpersonal insecurity,Entity:Emotion,interpersonal insecurity,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_17b8f6e855a601c3,attachment anxiety,Entity:Emotion,attachment anxiety,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_2916af2a2cb4b04b,attachment avoidance,Entity:Emotion,attachment avoidance,Emotion-related entity for affective recognition and depression KG expansion.,seed
+ent_cf04423013376268,positive affect,Entity:Affect_Dimension,positive affect,Affect dimension for structured emotion representation.,seed
+ent_1a2c00134f9f0033,negative affect,Entity:Affect_Dimension,negative affect,Affect dimension for structured emotion representation.,seed
+ent_12cef8df795ac564,valence,Entity:Affect_Dimension,valence,Affect dimension for structured emotion representation.,seed
+ent_c4a2bffef545d659,arousal,Entity:Affect_Dimension,arousal,Affect dimension for structured emotion representation.,seed
+ent_7c49e276477b3a7b,dominance,Entity:Affect_Dimension,dominance,Affect dimension for structured emotion representation.,seed
+ent_5a8e878801b1da5c,emotional intensity,Entity:Affect_Dimension,emotional intensity,Affect dimension for structured emotion representation.,seed
+ent_03fd0bf35b70755f,emotion granularity,Entity:Affect_Dimension,emotion granularity,Affect dimension for structured emotion representation.,seed
+ent_9805f3a5b43a8d87,affect variability,Entity:Affect_Dimension,affect variability,Affect dimension for structured emotion representation.,seed
+ent_9e3a25de455223bf,affect inertia,Entity:Affect_Dimension,affect inertia,Affect dimension for structured emotion representation.,seed
+ent_07cbdd4f0a6090aa,mood congruence,Entity:Affect_Dimension,mood congruence,Affect dimension for structured emotion representation.,seed
+ent_81f4373cbba81c5b,emotional clarity,Entity:Affect_Dimension,emotional clarity,Affect dimension for structured emotion representation.,seed
+ent_0382b01a31f55d3d,emotional awareness,Entity:Affect_Dimension,emotional awareness,Affect dimension for structured emotion representation.,seed
+ent_7febffe56e7faee2,emotional coherence,Entity:Affect_Dimension,emotional coherence,Affect dimension for structured emotion representation.,seed
+ent_260f4c579f624132,affective chronometry,Entity:Affect_Dimension,affective chronometry,Affect dimension for structured emotion representation.,seed
+ent_3f61f4662552fb72,stress reactivity,Entity:Affect_Dimension,stress reactivity,Affect dimension for structured emotion representation.,seed
+ent_bb64c4918846af3f,reward sensitivity,Entity:Affect_Dimension,reward sensitivity,Affect dimension for structured emotion representation.,seed
+ent_c839f010252a3aed,punishment sensitivity,Entity:Affect_Dimension,punishment sensitivity,Affect dimension for structured emotion representation.,seed
+ent_e67ef4bb166cef93,threat sensitivity,Entity:Affect_Dimension,threat sensitivity,Affect dimension for structured emotion representation.,seed
+ent_998f388c945afa85,social reward sensitivity,Entity:Affect_Dimension,social reward sensitivity,Affect dimension for structured emotion representation.,seed
+ent_acbca396b25ab912,emotion differentiation,Entity:Affect_Dimension,emotion differentiation,Affect dimension for structured emotion representation.,seed
+ent_49f8cde2f2b99f44,cognitive reappraisal,Entity:Emotion_Regulation,"cognitive reappraisal, reappraisal",Emotion regulation strategy entity.,seed
+ent_1bb2a2c9a03d36a8,expressive suppression,Entity:Emotion_Regulation,"expressive suppression, suppression strategy",Emotion regulation strategy entity.,seed
+ent_7e4e98ec0dbf6106,mindfulness,Entity:Emotion_Regulation,mindfulness,Emotion regulation strategy entity.,seed
+ent_3a112a17ced84759,acceptance,Entity:Emotion_Regulation,acceptance,Emotion regulation strategy entity.,seed
+ent_b58a24f0e2739731,problem-solving coping,Entity:Emotion_Regulation,problem-solving coping,Emotion regulation strategy entity.,seed
+ent_52c59469e048a31d,emotion labeling,Entity:Emotion_Regulation,emotion labeling,Emotion regulation strategy entity.,seed
+ent_839b418af587653e,affect naming,Entity:Emotion_Regulation,affect naming,Emotion regulation strategy entity.,seed
+ent_378650e296e3504b,self-soothing,Entity:Emotion_Regulation,self-soothing,Emotion regulation strategy entity.,seed
+ent_dba03abf98063ae8,distress tolerance,Entity:Emotion_Regulation,distress tolerance,Emotion regulation strategy entity.,seed
+ent_aa3dce89693355e1,grounding technique,Entity:Emotion_Regulation,grounding technique,Emotion regulation strategy entity.,seed
+ent_aaaacaa136416855,breathing regulation,Entity:Emotion_Regulation,breathing regulation,Emotion regulation strategy entity.,seed
+ent_b17da8de2e407729,progressive muscle relaxation,Entity:Emotion_Regulation,progressive muscle relaxation,Emotion regulation strategy entity.,seed
+ent_1cdab7063073aefc,behavioral activation,Entity:Emotion_Regulation,behavioral activation,Emotion regulation strategy entity.,seed
+ent_c00bd59a36ebf081,opposite action strategy,Entity:Emotion_Regulation,opposite action strategy,Emotion regulation strategy entity.,seed
+ent_23fd8b1e8bfb7692,attentional deployment,Entity:Emotion_Regulation,attentional deployment,Emotion regulation strategy entity.,seed
+ent_c609032b77ee2c88,response modulation,Entity:Emotion_Regulation,response modulation,Emotion regulation strategy entity.,seed
+ent_1f1715124ecb4773,situation selection,Entity:Emotion_Regulation,situation selection,Emotion regulation strategy entity.,seed
+ent_bbfc6868d891879f,situation modification,Entity:Emotion_Regulation,situation modification,Emotion regulation strategy entity.,seed
+ent_778954eb563fd607,rumination reduction,Entity:Emotion_Regulation,rumination reduction,Emotion regulation strategy entity.,seed
+ent_d636e8103320c2f6,worry postponement,Entity:Emotion_Regulation,worry postponement,Emotion regulation strategy entity.,seed
+ent_c218cc3c78c51d1f,compassion practice,Entity:Emotion_Regulation,compassion practice,Emotion regulation strategy entity.,seed
+ent_3472b14c68f8c895,gratitude practice,Entity:Emotion_Regulation,gratitude practice,Emotion regulation strategy entity.,seed
+ent_f215eacd5e0f0c00,sleep hygiene adherence,Entity:Emotion_Regulation,sleep hygiene adherence,Emotion regulation strategy entity.,seed
+ent_7237e14767c16337,stimulus control for insomnia,Entity:Emotion_Regulation,stimulus control for insomnia,Emotion regulation strategy entity.,seed
+ent_29052d67150bb922,sleep restriction therapy,Entity:Emotion_Regulation,sleep restriction therapy,Emotion regulation strategy entity.,seed
+ent_e9521dc6d49882be,relaxation training,Entity:Emotion_Regulation,relaxation training,Emotion regulation strategy entity.,seed
+ent_a5d9bde43dc67092,imagery rehearsal therapy,Entity:Emotion_Regulation,imagery rehearsal therapy,Emotion regulation strategy entity.,seed
+ent_31f1f06582eb2c44,biofeedback regulation,Entity:Emotion_Regulation,biofeedback regulation,Emotion regulation strategy entity.,seed
+ent_c6d00f5f63d21a0a,heart rate variability biofeedback,Entity:Emotion_Regulation,heart rate variability biofeedback,Emotion regulation strategy entity.,seed
+ent_08a703c0b468c9e2,cognitive defusion,Entity:Emotion_Regulation,cognitive defusion,Emotion regulation strategy entity.,seed
+ent_b2e53fadb82f938c,values-based action,Entity:Emotion_Regulation,values-based action,Emotion regulation strategy entity.,seed
+ent_db1e7630bd71cc98,social support seeking,Entity:Emotion_Regulation,social support seeking,Emotion regulation strategy entity.,seed
+ent_1391aa0dea8fa8dc,PANAS,Entity:Scale,PANAS,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_641b0ef852051cea,positive and negative affect schedule,Entity:Scale,"panas scale, positive and negative affect schedule","Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_9c779fba47ed517b,DERS,Entity:Scale,DERS,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_d5a8393f6db81a90,difficulties in emotion regulation scale,Entity:Scale,"ders scale, difficulties in emotion regulation scale","Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_4b88269375c26d2f,ERQ,Entity:Scale,ERQ,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_4fb262cfb40b7b36,emotion regulation questionnaire,Entity:Scale,"emotion regulation questionnaire, erq scale","Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_59506bf620f62e81,POMS,Entity:Scale,POMS,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_c761572edbf67bb5,profile of mood states,Entity:Scale,profile of mood states,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_b74e0c0250fd8ccf,STAI,Entity:Scale,STAI,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_fc6e681b9cd145a9,state-trait anxiety inventory,Entity:Scale,"stai scale, state-trait anxiety inventory","Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_61b6da8a33c376cf,BAI,Entity:Scale,BAI,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_475416f169df04f9,beck anxiety inventory,Entity:Scale,beck anxiety inventory,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_380bf3121dc6dca5,GAD-7,Entity:Scale,GAD-7,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_b9bdee30d7f0a841,PHQ-2,Entity:Scale,PHQ-2,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_1ee98c4d351216bb,CES-D,Entity:Scale,CES-D,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_76715cb688a6140e,HADS,Entity:Scale,HADS,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_ac366d8625f3ae31,hospital anxiety and depression scale,Entity:Scale,"hads scale, hospital anxiety and depression scale","Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_bae74aaf18ae0ae2,WHO-5 well-being index,Entity:Scale,WHO-5 well-being index,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_de1f6f0985ebd872,PSS,Entity:Scale,PSS,"Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_69147408fb8e752f,perceived stress scale,Entity:Scale,"perceived stress scale, pss scale","Scale used to assess emotion, stress, or affective symptoms.",seed
+ent_a9605606ceb6cb7c,melancholic depression,Entity:Disease,melancholic depression,Melancholic Depression is a depression-related disease entity.,seed
+ent_994629e5bf158a79,atypical depression,Entity:Disease,atypical depression,Atypical Depression is a depression-related disease entity.,seed
+ent_e7ff7a01ef3afed9,psychotic depression,Entity:Disease,psychotic depression,Psychotic Depression is a depression-related disease entity.,seed
+ent_e2060c4838ff8034,catatonic depression,Entity:Disease,catatonic depression,Catatonic Depression is a depression-related disease entity.,seed
+ent_b71ef8e3975f095a,anxious depression,Entity:Disease,anxious depression,Anxious Depression is a depression-related disease entity.,seed
+ent_7f6f79545c260e84,agitated depression,Entity:Disease,agitated depression,Agitated Depression is a depression-related disease entity.,seed
+ent_da1cd84453d814c0,retarded depression,Entity:Disease,retarded depression,Retarded Depression is a depression-related disease entity.,seed
+ent_ad868b796fda700f,chronic major depression,Entity:Disease,chronic major depression,Chronic Major Depression is a depression-related disease entity.,seed
+ent_1ab3e9e0c7ba337f,recurrent major depression,Entity:Disease,recurrent major depression,Recurrent Major Depression is a depression-related disease entity.,seed
+ent_8765c557f500caa0,single-episode major depression,Entity:Disease,single-episode major depression,Single-Episode Major Depression is a depression-related disease entity.,seed
+ent_da6c3732222518b5,double depression,Entity:Disease,double depression,Double Depression is a depression-related disease entity.,seed
+ent_98767bb0b3516f09,subsyndromal depression,Entity:Disease,subsyndromal depression,Subsyndromal Depression is a depression-related disease entity.,seed
+ent_bc99823db6ab11f0,minor depression,Entity:Disease,minor depression,Minor Depression is a depression-related disease entity.,seed
+ent_d3e3d492af9b6808,masked depression,Entity:Disease,masked depression,Masked Depression is a depression-related disease entity.,seed
+ent_44814b5cf663ef47,endogenous depression,Entity:Disease,endogenous depression,Endogenous Depression is a depression-related disease entity.,seed
+ent_6bee6c4917ee850e,reactive depression,Entity:Disease,reactive depression,Reactive Depression is a depression-related disease entity.,seed
+ent_d9759da04bdbb0e5,involutional depression,Entity:Disease,involutional depression,Involutional Depression is a depression-related disease entity.,seed
+ent_169c7650c4e37223,vascular depression,Entity:Disease,vascular depression,Vascular Depression is a depression-related disease entity.,seed
+ent_4a5cbe442f64190f,late-life depression,Entity:Disease,late-life depression,Late-Life Depression is a depression-related disease entity.,seed
+ent_de25f75bd3b7029b,adolescent depression,Entity:Disease,adolescent depression,Adolescent Depression is a depression-related disease entity.,seed
+ent_8cd5018a17d8244c,childhood depression,Entity:Disease,childhood depression,Childhood Depression is a depression-related disease entity.,seed
+ent_72e531099c571dae,perimenopausal depression,Entity:Disease,perimenopausal depression,Perimenopausal Depression is a depression-related disease entity.,seed
+ent_525d96d30e4cbc6d,menopausal depression,Entity:Disease,menopausal depression,Menopausal Depression is a depression-related disease entity.,seed
+ent_373cec5d471e990b,peripartum depression,Entity:Disease,peripartum depression,Peripartum Depression is a depression-related disease entity.,seed
+ent_111139d387edc2a1,antenatal depression,Entity:Disease,antenatal depression,Antenatal Depression is a depression-related disease entity.,seed
+ent_57b73f6d3da32310,prenatal depression,Entity:Disease,prenatal depression,Prenatal Depression is a depression-related disease entity.,seed
+ent_77fe8d4c39978930,postnatal depression,Entity:Disease,postnatal depression,Postnatal Depression is a depression-related disease entity.,seed
+ent_a658be57273fe9d9,seasonal depression,Entity:Disease,seasonal depression,Seasonal Depression is a depression-related disease entity.,seed
+ent_5538e72db02ba4a8,winter-pattern depression,Entity:Disease,winter-pattern depression,Winter-Pattern Depression is a depression-related disease entity.,seed
+ent_076d54e338112fe8,summer-pattern depression,Entity:Disease,summer-pattern depression,Summer-Pattern Depression is a depression-related disease entity.,seed
+ent_b2d89e579c6e0b2d,treatment-refractory depression,Entity:Disease,treatment-refractory depression,Treatment-Refractory Depression is a depression-related disease entity.,seed
+ent_3fb6a04a8520aa0a,partial-remission depression,Entity:Disease,partial-remission depression,Partial-Remission Depression is a depression-related disease entity.,seed
+ent_4e6f6581335eb5b3,residual depression,Entity:Disease,residual depression,Residual Depression is a depression-related disease entity.,seed
+ent_0051c3b0f2c290c3,bipolar depression episode,Entity:Disease,bipolar depression episode,Bipolar Depression Episode is a depression-related disease entity.,seed
+ent_0f1af84e59d899f0,depression with mixed features,Entity:Disease,depression with mixed features,Depression With Mixed Features is a depression-related disease entity.,seed
+ent_5b5d1cab0be6bbec,depression with anxious distress,Entity:Disease,depression with anxious distress,Depression With Anxious Distress is a depression-related disease entity.,seed
+ent_12040ffb88ad5bc7,depression with psychomotor changes,Entity:Disease,depression with psychomotor changes,Depression With Psychomotor Changes is a depression-related disease entity.,seed
+ent_da08665f4901c689,depression with somatic symptoms,Entity:Disease,depression with somatic symptoms,Depression With Somatic Symptoms is a depression-related disease entity.,seed
+ent_b60b2ffcc2c0f098,depression with atypical features,Entity:Disease,depression with atypical features,Depression With Atypical Features is a depression-related disease entity.,seed
+ent_24dd85a5dbf003b1,persistent low mood,Entity:Symptom,persistent low mood,Persistent Low Mood is a depression-related symptom entity.,seed
+ent_9a9b2631b49f8da4,depressed affect,Entity:Symptom,depressed affect,Depressed Affect is a depression-related symptom entity.,seed
+ent_0b70de82a78042c4,loss of enjoyment,Entity:Symptom,loss of enjoyment,Loss Of Enjoyment is a depression-related symptom entity.,seed
+ent_692adfda65faf47f,reduced motivation,Entity:Symptom,reduced motivation,Reduced Motivation is a depression-related symptom entity.,seed
+ent_38ee0f39cec47fe0,psychomotor retardation,Entity:Symptom,psychomotor retardation,Psychomotor Retardation is a depression-related symptom entity.,seed
+ent_8acd637335bff504,psychomotor slowing,Entity:Symptom,psychomotor slowing,Psychomotor Slowing is a depression-related symptom entity.,seed
+ent_c024abe6cc577d19,psychomotor agitation,Entity:Symptom,psychomotor agitation,Psychomotor Agitation is a depression-related symptom entity.,seed
+ent_abfc4f4ad4fc4765,emotional flatness,Entity:Symptom,emotional flatness,Emotional Flatness is a depression-related symptom entity.,seed
+ent_e49d71392805e7cf,social withdrawal,Entity:Symptom,social withdrawal,Social Withdrawal is a depression-related symptom entity.,seed
+ent_769dff2efb347106,crying spells,Entity:Symptom,crying spells,Crying Spells is a depression-related symptom entity.,seed
+ent_e036260f1643c639,inner emptiness,Entity:Symptom,inner emptiness,Inner Emptiness is a depression-related symptom entity.,seed
+ent_4d04a6903ee5064f,self-loathing,Entity:Symptom,self-loathing,Self-Loathing is a depression-related symptom entity.,seed
+ent_d76dea6d0806d19a,self-devaluation,Entity:Symptom,self-devaluation,Self-Devaluation is a depression-related symptom entity.,seed
+ent_88a2b9fff100a664,low self-esteem,Entity:Symptom,low self-esteem,Low Self-Esteem is a depression-related symptom entity.,seed
+ent_5a4593109ee4b15e,self-reproach,Entity:Symptom,self-reproach,Self-Reproach is a depression-related symptom entity.,seed
+ent_99218b863368e4c5,indecisiveness,Entity:Symptom,indecisiveness,Indecisiveness is a depression-related symptom entity.,seed
+ent_f58409faa9a15539,cognitive slowing,Entity:Symptom,cognitive slowing,Cognitive Slowing is a depression-related symptom entity.,seed
+ent_95c6af1482a9a818,impaired concentration,Entity:Symptom,impaired concentration,Impaired Concentration is a depression-related symptom entity.,seed
+ent_da8bb04b2215a488,memory complaints,Entity:Symptom,memory complaints,Memory Complaints is a depression-related symptom entity.,seed
+ent_cbde4897b6e12542,mental fatigue,Entity:Symptom,mental fatigue,Mental Fatigue is a depression-related symptom entity.,seed
+ent_a77ba1c7e257765a,physical fatigue,Entity:Symptom,physical fatigue,Physical Fatigue is a depression-related symptom entity.,seed
+ent_74766449a174a7ea,low energy,Entity:Symptom,low energy,Low Energy is a depression-related symptom entity.,seed
+ent_85277c4d1fc773b9,morning worsening,Entity:Symptom,morning worsening,Morning Worsening is a depression-related symptom entity.,seed
+ent_23b32a468ca9e42f,diurnal mood variation,Entity:Symptom,diurnal mood variation,Diurnal Mood Variation is a depression-related symptom entity.,seed
+ent_46b0270878e70919,early morning low mood,Entity:Symptom,early morning low mood,Early Morning Low Mood is a depression-related symptom entity.,seed
+ent_e1f601083e936650,anxiety tension,Entity:Symptom,anxiety tension,Anxiety Tension is a depression-related symptom entity.,seed
+ent_68d854e9a82a7e1c,somatic anxiety,Entity:Symptom,somatic anxiety,Somatic Anxiety is a depression-related symptom entity.,seed
+ent_b625410ba8a84ccc,panic-like symptoms,Entity:Symptom,panic-like symptoms,Panic-Like Symptoms is a depression-related symptom entity.,seed
+ent_35f55c767ef15867,irritability outbursts,Entity:Symptom,irritability outbursts,Irritability Outbursts is a depression-related symptom entity.,seed
+ent_ea57fe3b24214f21,reduced libido,Entity:Symptom,reduced libido,Reduced Libido is a depression-related symptom entity.,seed
+ent_9c80715d2c2edb85,sexual dysfunction symptoms,Entity:Symptom,sexual dysfunction symptoms,Sexual Dysfunction Symptoms is a depression-related symptom entity.,seed
+ent_e80f144b13dc874e,appetite loss,Entity:Symptom,appetite loss,Appetite Loss is a depression-related symptom entity.,seed
+ent_d23e59fe938a6507,increased appetite episodes,Entity:Symptom,increased appetite episodes,Increased Appetite Episodes is a depression-related symptom entity.,seed
+ent_23fb986c6649a447,weight gain,Entity:Symptom,weight gain,Weight Gain is a depression-related symptom entity.,seed
+ent_f8060d0346e734b9,insomnia symptoms,Entity:Symptom,insomnia symptoms,Insomnia Symptoms is a depression-related symptom entity.,seed
+ent_5ee895dc53781ae1,hypersomnia symptoms,Entity:Symptom,hypersomnia symptoms,Hypersomnia Symptoms is a depression-related symptom entity.,seed
+ent_bf3d9dd51d94cc2e,nonrestorative sleep symptoms,Entity:Symptom,nonrestorative sleep symptoms,Nonrestorative Sleep Symptoms is a depression-related symptom entity.,seed
+ent_946acb8e8c3d5c5f,sleep continuity complaints,Entity:Symptom,sleep continuity complaints,Sleep Continuity Complaints is a depression-related symptom entity.,seed
+ent_054eb3f0badd8f54,feelings of failure,Entity:Symptom,feelings of failure,Feelings Of Failure is a depression-related symptom entity.,seed
+ent_ffc79fb9fd1b4336,pessimism,Entity:Symptom,pessimism,Pessimism is a depression-related symptom entity.,seed
+ent_bc6d5ff1e7317a11,demoralized mood,Entity:Symptom,demoralized mood,Demoralized Mood is a depression-related symptom entity.,seed
+ent_9319b9022373f0d2,hopeless cognition,Entity:Symptom,hopeless cognition,Hopeless Cognition is a depression-related symptom entity.,seed
+ent_c94c34c8d6535b8d,helpless cognition,Entity:Symptom,helpless cognition,Helpless Cognition is a depression-related symptom entity.,seed
+ent_e13eb57bf6b12beb,worthlessness feelings,Entity:Symptom,worthlessness feelings,Worthlessness Feelings is a depression-related symptom entity.,seed
+ent_08603530a828a375,survivor guilt,Entity:Symptom,survivor guilt,Survivor Guilt is a depression-related symptom entity.,seed
+ent_ac0975b4ba2a68e1,anticipatory dread,Entity:Symptom,anticipatory dread,Anticipatory Dread is a depression-related symptom entity.,seed
+ent_6c46d084960ae885,death preoccupation,Entity:Symptom,death preoccupation,Death Preoccupation is a depression-related symptom entity.,seed
+ent_6d24c344e7887931,passive death wish,Entity:Symptom,passive death wish,Passive Death Wish is a depression-related symptom entity.,seed
+ent_982d96a83e620c4a,active suicidal ideation,Entity:Symptom,active suicidal ideation,Active Suicidal Ideation is a depression-related symptom entity.,seed
+ent_c9659cfd1eaa083c,suicidal planning,Entity:Symptom,suicidal planning,Suicidal Planning is a depression-related symptom entity.,seed
+ent_987ae68f9a81cbd7,suicidal intent,Entity:Symptom,suicidal intent,Suicidal Intent is a depression-related symptom entity.,seed
+ent_294485f13492734a,self-harm urges,Entity:Symptom,self-harm urges,Self-Harm Urges is a depression-related symptom entity.,seed
+ent_d1f80a4d697d0411,self-harm behavior,Entity:Symptom,self-harm behavior,Self-Harm Behavior is a depression-related symptom entity.,seed
+ent_8d8fb72dbcba91dc,functional impairment,Entity:Symptom,functional impairment,Functional Impairment is a depression-related symptom entity.,seed
+ent_e0de1dbb81badd91,occupational impairment,Entity:Symptom,occupational impairment,Occupational Impairment is a depression-related symptom entity.,seed
+ent_6c19bf0bc4bb7f1e,academic impairment,Entity:Symptom,academic impairment,Academic Impairment is a depression-related symptom entity.,seed
+ent_d85fbc6e9be6e71d,interpersonal impairment,Entity:Symptom,interpersonal impairment,Interpersonal Impairment is a depression-related symptom entity.,seed
+ent_5569f03520f291bc,childhood adversity,Entity:Risk_Factor,childhood adversity,Childhood Adversity is a depression-related risk_factor entity.,seed
+ent_815565304a2077eb,adverse childhood experiences,Entity:Risk_Factor,adverse childhood experiences,Adverse Childhood Experiences is a depression-related risk_factor entity.,seed
+ent_8862a190600c92d1,emotional abuse history,Entity:Risk_Factor,emotional abuse history,Emotional Abuse History is a depression-related risk_factor entity.,seed
+ent_cbbab173333e6c75,physical abuse history,Entity:Risk_Factor,physical abuse history,Physical Abuse History is a depression-related risk_factor entity.,seed
+ent_bb0676e05aa746da,sexual abuse history,Entity:Risk_Factor,sexual abuse history,Sexual Abuse History is a depression-related risk_factor entity.,seed
+ent_c5d61540affa5d30,neglect history,Entity:Risk_Factor,neglect history,Neglect History is a depression-related risk_factor entity.,seed
+ent_e63af02da1786f73,bullying victimization,Entity:Risk_Factor,bullying victimization,Bullying Victimization is a depression-related risk_factor entity.,seed
+ent_837d40c26738745f,interpersonal trauma,Entity:Risk_Factor,interpersonal trauma,Interpersonal Trauma is a depression-related risk_factor entity.,seed
+ent_2c068884147aaf78,bereavement,Entity:Risk_Factor,bereavement,Bereavement is a depression-related risk_factor entity.,seed
+ent_f475a2b7a9c0fa3f,relationship breakup,Entity:Risk_Factor,relationship breakup,Relationship Breakup is a depression-related risk_factor entity.,seed
+ent_e468b097a15b6637,divorce stress,Entity:Risk_Factor,divorce stress,Divorce Stress is a depression-related risk_factor entity.,seed
+ent_32df71c87cb9b05f,caregiver burden,Entity:Risk_Factor,caregiver burden,Caregiver Burden is a depression-related risk_factor entity.,seed
+ent_42c961a9b7516bcb,chronic stress exposure,Entity:Risk_Factor,chronic stress exposure,Chronic Stress Exposure is a depression-related risk_factor entity.,seed
+ent_fcc0d566d1c9a80a,occupational stress,Entity:Risk_Factor,occupational stress,Occupational Stress is a depression-related risk_factor entity.,seed
+ent_a0f77c216dd3ca20,job insecurity,Entity:Risk_Factor,job insecurity,Job Insecurity is a depression-related risk_factor entity.,seed
+ent_f9b4351ca4b15c7c,unemployment,Entity:Risk_Factor,unemployment,Unemployment is a depression-related risk_factor entity.,seed
+ent_719ebf9323a781f6,financial strain,Entity:Risk_Factor,financial strain,Financial Strain is a depression-related risk_factor entity.,seed
+ent_138972a478ec48ed,debt burden,Entity:Risk_Factor,debt burden,Debt Burden is a depression-related risk_factor entity.,seed
+ent_bfe4ed5b4d0608f2,low social support,Entity:Risk_Factor,low social support,Low Social Support is a depression-related risk_factor entity.,seed
+ent_748fc4fd6c0bffd5,perceived loneliness,Entity:Risk_Factor,perceived loneliness,Perceived Loneliness is a depression-related risk_factor entity.,seed
+ent_0062a4c6dc75c95b,social conflict,Entity:Risk_Factor,social conflict,Social Conflict is a depression-related risk_factor entity.,seed
+ent_4cd80f9074640d57,family conflict,Entity:Risk_Factor,family conflict,Family Conflict is a depression-related risk_factor entity.,seed
+ent_55c6f067e347813f,sleep deprivation risk,Entity:Risk_Factor,sleep deprivation risk,Sleep Deprivation Risk is a depression-related risk_factor entity.,seed
+ent_005d217262fa9f5d,shift work exposure,Entity:Risk_Factor,shift work exposure,Shift Work Exposure is a depression-related risk_factor entity.,seed
+ent_ce4ac8d9f3a3d5a8,circadian disruption risk,Entity:Risk_Factor,circadian disruption risk,Circadian Disruption Risk is a depression-related risk_factor entity.,seed
+ent_f860717cc873faf9,sedentary lifestyle,Entity:Risk_Factor,sedentary lifestyle,Sedentary Lifestyle is a depression-related risk_factor entity.,seed
+ent_07bfee8ebc420e70,poor diet quality,Entity:Risk_Factor,poor diet quality,Poor Diet Quality is a depression-related risk_factor entity.,seed
+ent_23a83ca62083e2ac,alcohol misuse,Entity:Risk_Factor,alcohol misuse,Alcohol Misuse is a depression-related risk_factor entity.,seed
+ent_af98c56ff4d032db,substance misuse,Entity:Risk_Factor,substance misuse,Substance Misuse is a depression-related risk_factor entity.,seed
+ent_aa7b05c3d3e315d6,nicotine dependence,Entity:Risk_Factor,nicotine dependence,Nicotine Dependence is a depression-related risk_factor entity.,seed
+ent_def8b71ad598b2a0,chronic pain,Entity:Risk_Factor,chronic pain,Chronic Pain is a depression-related risk_factor entity.,seed
+ent_950c25f929638c87,inflammatory burden,Entity:Risk_Factor,inflammatory burden,Inflammatory Burden is a depression-related risk_factor entity.,seed
+ent_6073cbe8d958ba19,metabolic syndrome,Entity:Risk_Factor,metabolic syndrome,Metabolic Syndrome is a depression-related risk_factor entity.,seed
+ent_91664903f0b1a126,obesity,Entity:Risk_Factor,obesity,Obesity is a depression-related risk_factor entity.,seed
+ent_8bd2cc12172c73e1,diabetes mellitus,Entity:Risk_Factor,diabetes mellitus,Diabetes Mellitus is a depression-related risk_factor entity.,seed
+ent_8545dcf536100e65,cardiovascular disease,Entity:Risk_Factor,cardiovascular disease,Cardiovascular Disease is a depression-related risk_factor entity.,seed
+ent_ef30cc480d17752d,thyroid dysfunction,Entity:Risk_Factor,thyroid dysfunction,Thyroid Dysfunction is a depression-related risk_factor entity.,seed
+ent_f1147392ae8733f8,vitamin d deficiency,Entity:Risk_Factor,vitamin d deficiency,Vitamin D Deficiency is a depression-related risk_factor entity.,seed
+ent_b4ae81f511e057ad,iron deficiency,Entity:Risk_Factor,iron deficiency,Iron Deficiency is a depression-related risk_factor entity.,seed
+ent_56038d565dace765,postpartum hormonal fluctuation,Entity:Risk_Factor,postpartum hormonal fluctuation,Postpartum Hormonal Fluctuation is a depression-related risk_factor entity.,seed
+ent_0d4e29ad862c0570,perimenopausal hormonal change,Entity:Risk_Factor,perimenopausal hormonal change,Perimenopausal Hormonal Change is a depression-related risk_factor entity.,seed
+ent_d71e4449108b20e2,genetic vulnerability,Entity:Risk_Factor,genetic vulnerability,Genetic Vulnerability is a depression-related risk_factor entity.,seed
+ent_5af6a4cdeb3fbd4c,polygenic risk,Entity:Risk_Factor,polygenic risk,Polygenic Risk is a depression-related risk_factor entity.,seed
+ent_81aabc164ae4c66f,family psychiatric history,Entity:Risk_Factor,family psychiatric history,Family Psychiatric History is a depression-related risk_factor entity.,seed
+ent_ee9c01a98aee7ee5,comorbid anxiety disorder,Entity:Risk_Factor,comorbid anxiety disorder,Comorbid Anxiety Disorder is a depression-related risk_factor entity.,seed
+ent_6d2a0cd439b3d9ae,personality vulnerability,Entity:Risk_Factor,personality vulnerability,Personality Vulnerability is a depression-related risk_factor entity.,seed
+ent_39791743c1e9a145,high neuroticism,Entity:Risk_Factor,high neuroticism,High Neuroticism is a depression-related risk_factor entity.,seed
+ent_795da06b0a6e8f9e,perfectionism trait,Entity:Risk_Factor,perfectionism trait,Perfectionism Trait is a depression-related risk_factor entity.,seed
+ent_d950504bf0161db9,rumination tendency,Entity:Risk_Factor,rumination tendency,Rumination Tendency is a depression-related risk_factor entity.,seed
+ent_c91a487f41c050fb,negative cognitive bias,Entity:Risk_Factor,negative cognitive bias,Negative Cognitive Bias is a depression-related risk_factor entity.,seed
+ent_b43101edb0847777,learned helplessness pattern,Entity:Risk_Factor,learned helplessness pattern,Learned Helplessness Pattern is a depression-related risk_factor entity.,seed
+ent_37dc25b250228e3b,stigma exposure,Entity:Risk_Factor,stigma exposure,Stigma Exposure is a depression-related risk_factor entity.,seed
+ent_85ed04e549a58212,limited access to care,Entity:Risk_Factor,limited access to care,Limited Access To Care is a depression-related risk_factor entity.,seed
+ent_c37e5e083306468e,treatment nonadherence risk,Entity:Risk_Factor,treatment nonadherence risk,Treatment Nonadherence Risk is a depression-related risk_factor entity.,seed
+ent_1971fa9999448b63,behavioral activation therapy,Entity:Treatment,behavioral activation therapy,Behavioral Activation Therapy is a depression-related treatment entity.,seed
+ent_41ba3cbeaac055b3,interpersonal psychotherapy,Entity:Treatment,interpersonal psychotherapy,Interpersonal Psychotherapy is a depression-related treatment entity.,seed
+ent_4bfb0e39377d38fb,problem-solving therapy,Entity:Treatment,problem-solving therapy,Problem-Solving Therapy is a depression-related treatment entity.,seed
+ent_d8e4ae8e171ff91a,acceptance and commitment therapy,Entity:Treatment,acceptance and commitment therapy,Acceptance And Commitment Therapy is a depression-related treatment entity.,seed
+ent_3a8b71d78531e47e,dialectical behavior therapy,Entity:Treatment,dialectical behavior therapy,Dialectical Behavior Therapy is a depression-related treatment entity.,seed
+ent_d7b03fba85bcbd39,mindfulness-based cognitive therapy,Entity:Treatment,mindfulness-based cognitive therapy,Mindfulness-Based Cognitive Therapy is a depression-related treatment entity.,seed
+ent_87f549bf9d0939f9,metacognitive therapy,Entity:Treatment,metacognitive therapy,Metacognitive Therapy is a depression-related treatment entity.,seed
+ent_01d21fcb72a0410a,schema therapy,Entity:Treatment,schema therapy,Schema Therapy is a depression-related treatment entity.,seed
+ent_86bde491543684b5,compassion-focused therapy,Entity:Treatment,compassion-focused therapy,Compassion-Focused Therapy is a depression-related treatment entity.,seed
+ent_54d77dda71856262,short-term psychodynamic therapy,Entity:Treatment,short-term psychodynamic therapy,Short-Term Psychodynamic Therapy is a depression-related treatment entity.,seed
+ent_2b144cf70f3c053b,supportive psychotherapy,Entity:Treatment,supportive psychotherapy,Supportive Psychotherapy is a depression-related treatment entity.,seed
+ent_2dd9381d546507ce,group psychotherapy,Entity:Treatment,group psychotherapy,Group Psychotherapy is a depression-related treatment entity.,seed
+ent_0de0726193720de8,family therapy,Entity:Treatment,family therapy,Family Therapy is a depression-related treatment entity.,seed
+ent_6176365d9f79f001,couples therapy,Entity:Treatment,couples therapy,Couples Therapy is a depression-related treatment entity.,seed
+ent_dfb34623a626a67f,collaborative care model,Entity:Treatment,collaborative care model,Collaborative Care Model is a depression-related treatment entity.,seed
+ent_e3c94fa1293e5590,stepped care model,Entity:Treatment,stepped care model,Stepped Care Model is a depression-related treatment entity.,seed
+ent_654f10ba5e6c36a5,digital cognitive behavioral therapy,Entity:Treatment,digital cognitive behavioral therapy,Digital Cognitive Behavioral Therapy is a depression-related treatment entity.,seed
+ent_eb55ea259ad3b65c,internet-based psychotherapy,Entity:Treatment,internet-based psychotherapy,Internet-Based Psychotherapy is a depression-related treatment entity.,seed
+ent_8df97869545d0c2d,guided self-help therapy,Entity:Treatment,guided self-help therapy,Guided Self-Help Therapy is a depression-related treatment entity.,seed
+ent_fa4da587d325610d,exercise prescription,Entity:Treatment,exercise prescription,Exercise Prescription is a depression-related treatment entity.,seed
+ent_79dee172400c3c41,aerobic exercise intervention,Entity:Treatment,aerobic exercise intervention,Aerobic Exercise Intervention is a depression-related treatment entity.,seed
+ent_a1ac99626b5a9a66,resistance training intervention,Entity:Treatment,resistance training intervention,Resistance Training Intervention is a depression-related treatment entity.,seed
+ent_0107e3aefebeee77,sleep hygiene intervention,Entity:Treatment,sleep hygiene intervention,Sleep Hygiene Intervention is a depression-related treatment entity.,seed
+ent_8cd42a15418513d5,chronotherapy,Entity:Treatment,chronotherapy,Chronotherapy is a depression-related treatment entity.,seed
+ent_5ac4ec3a6fe2c55b,light therapy,Entity:Treatment,light therapy,Light Therapy is a depression-related treatment entity.,seed
+ent_19c6de86c3a0c407,wake therapy,Entity:Treatment,wake therapy,Wake Therapy is a depression-related treatment entity.,seed
+ent_a5f9fe6c7eb80432,cognitive remediation,Entity:Treatment,cognitive remediation,Cognitive Remediation is a depression-related treatment entity.,seed
+ent_66180fdc131ee2f2,social rhythm therapy,Entity:Treatment,social rhythm therapy,Social Rhythm Therapy is a depression-related treatment entity.,seed
+ent_5010e83d19414d0b,psychoeducation intervention,Entity:Treatment,psychoeducation intervention,Psychoeducation Intervention is a depression-related treatment entity.,seed
+ent_621b25116144981c,medication management,Entity:Treatment,medication management,Medication Management is a depression-related treatment entity.,seed
+ent_4bc64096c4d42f6d,combination therapy,Entity:Treatment,combination therapy,Combination Therapy is a depression-related treatment entity.,seed
+ent_e867842ca1a7bd6b,augmentation strategy,Entity:Treatment,augmentation strategy,Augmentation Strategy is a depression-related treatment entity.,seed
+ent_f40a4417e2b47053,maintenance therapy,Entity:Treatment,maintenance therapy,Maintenance Therapy is a depression-related treatment entity.,seed
+ent_c3939252418f2150,relapse prevention program,Entity:Treatment,relapse prevention program,Relapse Prevention Program is a depression-related treatment entity.,seed
+ent_cc09d47eca6ee40d,measurement-based care,Entity:Treatment,measurement-based care,Measurement-Based Care is a depression-related treatment entity.,seed
+ent_c12488c1805f9b4e,transcranial direct current stimulation,Entity:Treatment,transcranial direct current stimulation,Transcranial Direct Current Stimulation is a depression-related treatment entity.,seed
+ent_55e9af46981093a4,vagus nerve stimulation,Entity:Treatment,vagus nerve stimulation,Vagus Nerve Stimulation is a depression-related treatment entity.,seed
+ent_8be5e3cb75efc93a,deep brain stimulation,Entity:Treatment,deep brain stimulation,Deep Brain Stimulation is a depression-related treatment entity.,seed
+ent_123aea1d40190772,ketamine-assisted therapy,Entity:Treatment,ketamine-assisted therapy,Ketamine-Assisted Therapy is a depression-related treatment entity.,seed
+ent_cc76b5699979f1c9,esketamine therapy,Entity:Treatment,esketamine therapy,Esketamine Therapy is a depression-related treatment entity.,seed
+ent_70931d60bfcb8a83,citalopram,Entity:Drug,citalopram,Citalopram is a depression-related drug entity.,seed
+ent_86a39be4bbb7091f,fluvoxamine,Entity:Drug,fluvoxamine,Fluvoxamine is a depression-related drug entity.,seed
+ent_c7dee58db7047c0e,duloxetine,Entity:Drug,duloxetine,Duloxetine is a depression-related drug entity.,seed
+ent_daff5094d0364845,desvenlafaxine,Entity:Drug,desvenlafaxine,Desvenlafaxine is a depression-related drug entity.,seed
+ent_df776922c0b3318f,levomilnacipran,Entity:Drug,levomilnacipran,Levomilnacipran is a depression-related drug entity.,seed
+ent_14660fb678109541,milnacipran,Entity:Drug,milnacipran,Milnacipran is a depression-related drug entity.,seed
+ent_490d446d75e2395a,mirtazapine,Entity:Drug,mirtazapine,Mirtazapine is a depression-related drug entity.,seed
+ent_c68d2586ea60aca8,agomelatine,Entity:Drug,agomelatine,Agomelatine is a depression-related drug entity.,seed
+ent_97d668704b381ad2,vortioxetine,Entity:Drug,vortioxetine,Vortioxetine is a depression-related drug entity.,seed
+ent_bee83a939a15826f,vilazodone,Entity:Drug,vilazodone,Vilazodone is a depression-related drug entity.,seed
+ent_efc41ac958a3d37e,trazodone,Entity:Drug,trazodone,Trazodone is a depression-related drug entity.,seed
+ent_282c35d3a4e92542,nefazodone,Entity:Drug,nefazodone,Nefazodone is a depression-related drug entity.,seed
+ent_6cd0cd4ebfd55673,reboxetine,Entity:Drug,reboxetine,Reboxetine is a depression-related drug entity.,seed
+ent_7a14db58c249685c,maprotiline,Entity:Drug,maprotiline,Maprotiline is a depression-related drug entity.,seed
+ent_013bee7bf93447fb,amitriptyline,Entity:Drug,amitriptyline,Amitriptyline is a depression-related drug entity.,seed
+ent_cb74fb873316ab91,nortriptyline,Entity:Drug,nortriptyline,Nortriptyline is a depression-related drug entity.,seed
+ent_3b10eabe62fe170a,imipramine,Entity:Drug,imipramine,Imipramine is a depression-related drug entity.,seed
+ent_006f47bd80246f7b,clomipramine,Entity:Drug,clomipramine,Clomipramine is a depression-related drug entity.,seed
+ent_dca71f9e4af0fa70,desipramine,Entity:Drug,desipramine,Desipramine is a depression-related drug entity.,seed
+ent_3814525de3c93a83,doxepin,Entity:Drug,doxepin,Doxepin is a depression-related drug entity.,seed
+ent_4645690082ae6fec,trimipramine,Entity:Drug,trimipramine,Trimipramine is a depression-related drug entity.,seed
+ent_77fd5d4611bd323e,protriptyline,Entity:Drug,protriptyline,Protriptyline is a depression-related drug entity.,seed
+ent_e97e085560c58a49,phenelzine,Entity:Drug,phenelzine,Phenelzine is a depression-related drug entity.,seed
+ent_cd37750e8a271356,tranylcypromine,Entity:Drug,tranylcypromine,Tranylcypromine is a depression-related drug entity.,seed
+ent_4937aa481105d6d4,isocarboxazid,Entity:Drug,isocarboxazid,Isocarboxazid is a depression-related drug entity.,seed
+ent_131480037b41daf9,moclobemide,Entity:Drug,moclobemide,Moclobemide is a depression-related drug entity.,seed
+ent_7ab1c94b60a15c94,selegiline transdermal system,Entity:Drug,selegiline transdermal system,Selegiline Transdermal System is a depression-related drug entity.,seed
+ent_03dc6e1454fa2741,lithium augmentation,Entity:Drug,lithium augmentation,Lithium Augmentation is a depression-related drug entity.,seed
+ent_1577787c5089888c,aripiprazole augmentation,Entity:Drug,aripiprazole augmentation,Aripiprazole Augmentation is a depression-related drug entity.,seed
+ent_20a2739d23b99cf1,quetiapine augmentation,Entity:Drug,quetiapine augmentation,Quetiapine Augmentation is a depression-related drug entity.,seed
+ent_c7a978cfbca785ae,brexpiprazole augmentation,Entity:Drug,brexpiprazole augmentation,Brexpiprazole Augmentation is a depression-related drug entity.,seed
+ent_13fddd4ac74eebc8,olanzapine-fluoxetine combination,Entity:Drug,olanzapine-fluoxetine combination,Olanzapine-Fluoxetine Combination is a depression-related drug entity.,seed
+ent_4e0a572dcbc16aee,lamotrigine augmentation,Entity:Drug,lamotrigine augmentation,Lamotrigine Augmentation is a depression-related drug entity.,seed
+ent_3e5a7aa07e9c6528,buspirone augmentation,Entity:Drug,buspirone augmentation,Buspirone Augmentation is a depression-related drug entity.,seed
+ent_2f6c3be0232e4c8e,thyroid hormone augmentation,Entity:Drug,thyroid hormone augmentation,Thyroid Hormone Augmentation is a depression-related drug entity.,seed
+ent_f2fafd6bc408e5f8,ketamine infusion,Entity:Drug,ketamine infusion,Ketamine Infusion is a depression-related drug entity.,seed
+ent_4428880c49f411b0,esketamine nasal spray,Entity:Drug,esketamine nasal spray,Esketamine Nasal Spray is a depression-related drug entity.,seed
+ent_bd7dec7ab2a4c8a2,modafinil augmentation,Entity:Drug,modafinil augmentation,Modafinil Augmentation is a depression-related drug entity.,seed
+ent_859a31bc29af7584,methylphenidate augmentation,Entity:Drug,methylphenidate augmentation,Methylphenidate Augmentation is a depression-related drug entity.,seed
+ent_fd4c6f5ac4a589f4,quick inventory of depressive symptomatology,Entity:Scale,quick inventory of depressive symptomatology,Quick Inventory Of Depressive Symptomatology is a depression-related scale entity.,seed
+ent_1d9d2b7f89e57eea,qids,Entity:Scale,qids,Qids is a depression-related scale entity.,seed
+ent_b875dbbd200a1e8a,patient health questionnaire-8,Entity:Scale,patient health questionnaire-8,Patient Health Questionnaire-8 is a depression-related scale entity.,seed
+ent_8dbffe009809fcc3,phq-8,Entity:Scale,phq-8,Phq-8 is a depression-related scale entity.,seed
+ent_085b0458fb662249,center for epidemiologic studies depression scale,Entity:Scale,center for epidemiologic studies depression scale,Center For Epidemiologic Studies Depression Scale is a depression-related scale entity.,seed
+ent_21d732bd14f33ffe,ces-d scale,Entity:Scale,ces-d scale,Ces-D Scale is a depression-related scale entity.,seed
+ent_939bc12ea24abdd6,zung self-rating depression scale,Entity:Scale,zung self-rating depression scale,Zung Self-Rating Depression Scale is a depression-related scale entity.,seed
+ent_bbc2379f0e8069f3,sds depression scale,Entity:Scale,sds depression scale,Sds Depression Scale is a depression-related scale entity.,seed
+ent_feed2dc85a423fd3,geriatric depression scale,Entity:Scale,geriatric depression scale,Geriatric Depression Scale is a depression-related scale entity.,seed
+ent_546432002ae7a2b7,gds-15,Entity:Scale,gds-15,Gds-15 is a depression-related scale entity.,seed
+ent_e1ce429480699118,gds-30,Entity:Scale,gds-30,Gds-30 is a depression-related scale entity.,seed
+ent_92d315d3da55995a,edinburgh postnatal depression scale,Entity:Scale,edinburgh postnatal depression scale,Edinburgh Postnatal Depression Scale is a depression-related scale entity.,seed
+ent_fc193a1de4f53c5a,epds,Entity:Scale,epds,Epds is a depression-related scale entity.,seed
+ent_6589225d1dd90d17,hospital depression subscale,Entity:Scale,hospital depression subscale,Hospital Depression Subscale is a depression-related scale entity.,seed
+ent_3915d98f56df7d84,inventory of depressive symptomatology,Entity:Scale,inventory of depressive symptomatology,Inventory Of Depressive Symptomatology is a depression-related scale entity.,seed
+ent_012f48e4d82b7f86,ids,Entity:Scale,ids,Ids is a depression-related scale entity.,seed
+ent_39ea3a838786f37a,ids-sr,Entity:Scale,ids-sr,Ids-Sr is a depression-related scale entity.,seed
+ent_5772f277c259828e,hamilton anxiety scale,Entity:Scale,hamilton anxiety scale,Hamilton Anxiety Scale is a depression-related scale entity.,seed
+ent_8fe43c99f3011420,hama,Entity:Scale,hama,Hama is a depression-related scale entity.,seed
+ent_c9a17f16d1df59fb,clinical global impression severity,Entity:Scale,clinical global impression severity,Clinical Global Impression Severity is a depression-related scale entity.,seed
+ent_7b434accaa81bd5c,cgi-s,Entity:Scale,cgi-s,Cgi-S is a depression-related scale entity.,seed
+ent_c228b3efd5b12425,clinical global impression improvement,Entity:Scale,clinical global impression improvement,Clinical Global Impression Improvement is a depression-related scale entity.,seed
+ent_1467eacfa3f8e659,cgi-i,Entity:Scale,cgi-i,Cgi-I is a depression-related scale entity.,seed
+ent_7151a46d8c999acc,columbia suicide severity rating scale,Entity:Scale,columbia suicide severity rating scale,Columbia Suicide Severity Rating Scale is a depression-related scale entity.,seed
+ent_239dad845f54ce25,cssrs,Entity:Scale,cssrs,Cssrs is a depression-related scale entity.,seed
+ent_55dc96f39a7a627e,beck scale for suicide ideation,Entity:Scale,beck scale for suicide ideation,Beck Scale For Suicide Ideation is a depression-related scale entity.,seed
+ent_ffbe95ca1a4ba068,bss,Entity:Scale,bss,Bss is a depression-related scale entity.,seed
+ent_0132693a8f68eed2,suicidal ideation attributes scale,Entity:Scale,suicidal ideation attributes scale,Suicidal Ideation Attributes Scale is a depression-related scale entity.,seed
+ent_44f603e4268c93de,sidas,Entity:Scale,sidas,Sidas is a depression-related scale entity.,seed
+ent_88ca36e3c381c858,quality of life enjoyment and satisfaction questionnaire,Entity:Scale,quality of life enjoyment and satisfaction questionnaire,Quality Of Life Enjoyment And Satisfaction Questionnaire is a depression-related scale entity.,seed
+ent_5ae50628404bc348,q-les-q,Entity:Scale,q-les-q,Q-Les-Q is a depression-related scale entity.,seed
+ent_ab9c6117063da796,sheehan disability scale,Entity:Scale,sheehan disability scale,Sheehan Disability Scale is a depression-related scale entity.,seed
+ent_64c40cf0b288ba56,sds disability,Entity:Scale,sds disability,Sds Disability is a depression-related scale entity.,seed
+ent_bebba5510699c85a,work and social adjustment scale,Entity:Scale,work and social adjustment scale,Work And Social Adjustment Scale is a depression-related scale entity.,seed
+ent_475ea8af5b5dcb7b,wsas,Entity:Scale,wsas,Wsas is a depression-related scale entity.,seed
+ent_ec1cddd78c03eede,insomnia severity index,Entity:Scale,insomnia severity index,Insomnia Severity Index is a depression-related scale entity.,seed
+ent_6cf0943fa44477b8,isi,Entity:Scale,isi,Isi is a depression-related scale entity.,seed
+ent_7bcce8f29b0c43cc,pittsburgh sleep quality index,Entity:Scale,pittsburgh sleep quality index,Pittsburgh Sleep Quality Index is a depression-related scale entity.,seed
+ent_af1dff1ccbeb8a23,psqi,Entity:Scale,psqi,Psqi is a depression-related scale entity.,seed
+ent_21a19fbb3df31534,epworth sleepiness scale,Entity:Scale,epworth sleepiness scale,Epworth Sleepiness Scale is a depression-related scale entity.,seed
+ent_9a46a1b746498d6a,ess,Entity:Scale,ess,Ess is a depression-related scale entity.,seed
+ent_fe886021f755810b,montreal cognitive assessment,Entity:Scale,montreal cognitive assessment,Montreal Cognitive Assessment is a depression-related scale entity.,seed
+ent_aed38998b0d50cdf,moca,Entity:Scale,moca,Moca is a depression-related scale entity.,seed
+ent_cf1c0a735e09d718,mini-mental state examination,Entity:Scale,mini-mental state examination,Mini-Mental State Examination is a depression-related scale entity.,seed
+ent_f9d90fce8ff33ed4,mmse,Entity:Scale,mmse,Mmse is a depression-related scale entity.,seed
+ent_faec752fdc72e960,brain-derived neurotrophic factor,Entity:Biomarker,brain-derived neurotrophic factor,Brain-Derived Neurotrophic Factor is a depression-related biomarker entity.,seed
+ent_75d7eabbe0ff8930,bdnf,Entity:Biomarker,bdnf,Bdnf is a depression-related biomarker entity.,seed
+ent_42d18c9cf1c6305c,c-reactive protein,Entity:Biomarker,c-reactive protein,C-Reactive Protein is a depression-related biomarker entity.,seed
+ent_15b696cea518fa5e,crp,Entity:Biomarker,crp,Crp is a depression-related biomarker entity.,seed
+ent_f1c6616a19fcccb2,interleukin-6,Entity:Biomarker,interleukin-6,Interleukin-6 is a depression-related biomarker entity.,seed
+ent_614e63acbf711ed8,il-6,Entity:Biomarker,il-6,Il-6 is a depression-related biomarker entity.,seed
+ent_f6855655469fc229,tumor necrosis factor alpha,Entity:Biomarker,tumor necrosis factor alpha,Tumor Necrosis Factor Alpha is a depression-related biomarker entity.,seed
+ent_69e3d1326e31dec1,tnf-alpha,Entity:Biomarker,tnf-alpha,Tnf-Alpha is a depression-related biomarker entity.,seed
+ent_6521a2b56ab799c4,interleukin-1 beta,Entity:Biomarker,interleukin-1 beta,Interleukin-1 Beta is a depression-related biomarker entity.,seed
+ent_2d45abc65920d7fe,il-1beta,Entity:Biomarker,il-1beta,Il-1Beta is a depression-related biomarker entity.,seed
+ent_ffd81c2edd6b5968,kynurenine,Entity:Biomarker,kynurenine,Kynurenine is a depression-related biomarker entity.,seed
+ent_b634bfbc36a53afe,kynurenine-tryptophan ratio,Entity:Biomarker,kynurenine-tryptophan ratio,Kynurenine-Tryptophan Ratio is a depression-related biomarker entity.,seed
+ent_d985591317483909,tryptophan,Entity:Biomarker,tryptophan,Tryptophan is a depression-related biomarker entity.,seed
+ent_c6ab77d496da61d4,cortisol awakening response,Entity:Biomarker,cortisol awakening response,Cortisol Awakening Response is a depression-related biomarker entity.,seed
+ent_1e0d3864270d034b,diurnal cortisol slope,Entity:Biomarker,diurnal cortisol slope,Diurnal Cortisol Slope is a depression-related biomarker entity.,seed
+ent_891165522871e755,acth,Entity:Biomarker,acth,Acth is a depression-related biomarker entity.,seed
+ent_85c0c6451d9ca1f0,thyroid-stimulating hormone,Entity:Biomarker,thyroid-stimulating hormone,Thyroid-Stimulating Hormone is a depression-related biomarker entity.,seed
+ent_f95ea48c5de02905,tsh,Entity:Biomarker,tsh,Tsh is a depression-related biomarker entity.,seed
+ent_3e6c030f73d0420a,free thyroxine,Entity:Biomarker,free thyroxine,Free Thyroxine is a depression-related biomarker entity.,seed
+ent_837b09e18b9f494d,free triiodothyronine,Entity:Biomarker,free triiodothyronine,Free Triiodothyronine is a depression-related biomarker entity.,seed
+ent_e50d841c4d27cede,heart rate variability,Entity:Biomarker,heart rate variability,Heart Rate Variability is a depression-related biomarker entity.,seed
+ent_98adb9721c574c4c,resting heart rate,Entity:Biomarker,resting heart rate,Resting Heart Rate is a depression-related biomarker entity.,seed
+ent_28039df94ee24c10,electrodermal activity,Entity:Biomarker,electrodermal activity,Electrodermal Activity is a depression-related biomarker entity.,seed
+ent_3b8c58644db4d4d9,frontal alpha asymmetry,Entity:Biomarker,frontal alpha asymmetry,Frontal Alpha Asymmetry is a depression-related biomarker entity.,seed
+ent_f68810c65d050f6e,default mode network connectivity,Entity:Biomarker,default mode network connectivity,Default Mode Network Connectivity is a depression-related biomarker entity.,seed
+ent_2d08d00976b19f87,amygdala reactivity,Entity:Biomarker,amygdala reactivity,Amygdala Reactivity is a depression-related biomarker entity.,seed
+ent_21825deea0942815,hippocampal volume,Entity:Biomarker,hippocampal volume,Hippocampal Volume is a depression-related biomarker entity.,seed
+ent_fc0bd7b26fbceae2,anterior cingulate activity,Entity:Biomarker,anterior cingulate activity,Anterior Cingulate Activity is a depression-related biomarker entity.,seed
+ent_5de7ceb0468628d6,reward prediction error signal,Entity:Biomarker,reward prediction error signal,Reward Prediction Error Signal is a depression-related biomarker entity.,seed
+ent_526296f7c065e5cc,sleep spindle activity,Entity:Biomarker,sleep spindle activity,Sleep Spindle Activity is a depression-related biomarker entity.,seed
+ent_da19d0b4d3bf7a32,slow wave activity,Entity:Biomarker,slow wave activity,Slow Wave Activity is a depression-related biomarker entity.,seed
+ent_aad988dbf55307fd,rem theta activity,Entity:Biomarker,rem theta activity,Rem Theta Activity is a depression-related biomarker entity.,seed
+ent_f41dde6a705434f2,serum ferritin,Entity:Biomarker,serum ferritin,Serum Ferritin is a depression-related biomarker entity.,seed
+ent_634222360a9bdc7e,vitamin d level,Entity:Biomarker,vitamin d level,Vitamin D Level is a depression-related biomarker entity.,seed
+ent_736bbec004e5c6cc,omega-3 index,Entity:Biomarker,omega-3 index,Omega-3 Index is a depression-related biomarker entity.,seed
+ent_aa0a4308b2ae05a9,fasting glucose,Entity:Biomarker,fasting glucose,Fasting Glucose is a depression-related biomarker entity.,seed
+ent_8928f1ee9d281fe9,hba1c,Entity:Biomarker,hba1c,Hba1C is a depression-related biomarker entity.,seed
+ent_66fda543364d3e1e,body mass index,Entity:Biomarker,body mass index,Body Mass Index is a depression-related biomarker entity.,seed
+ent_024d2bf6b9f66c23,waist circumference,Entity:Biomarker,waist circumference,Waist Circumference is a depression-related biomarker entity.,seed
+ent_d215b27007afff71,blood pressure variability,Entity:Biomarker,blood pressure variability,Blood Pressure Variability is a depression-related biomarker entity.,seed

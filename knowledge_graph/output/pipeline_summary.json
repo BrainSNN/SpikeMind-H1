@@ -1,0 +1,46 @@
+{
+  "document_count": 1016,
+  "entity_count": 737,
+  "matched_entity_count": 303,
+  "seed_catalog_entity_count": 737,
+  "relation_count": 3658,
+  "connected_entity_count_before_catalog_links": 253,
+  "connected_entity_count_after_catalog_links": 737,
+  "entity_connection_ratio": 1.0,
+  "entity_type_counts": {
+    "disease": 46,
+    "symptom": 67,
+    "risk_factor": 59,
+    "treatment": 46,
+    "drug": 45,
+    "scale": 69,
+    "biomarker": 64,
+    "task": 1,
+    "sleep_stage": 18,
+    "sleep_symptom": 104,
+    "sleep_pattern": 50,
+    "eeg_feature": 3,
+    "emotion": 113,
+    "affect_dimension": 20,
+    "emotion_regulation": 32
+  },
+  "relation_type_counts": {
+    "has_risk_factor": 338,
+    "has_symptom": 384,
+    "related_to": 521,
+    "treats": 623,
+    "associated_with": 1064,
+    "measured_by": 619,
+    "characterized_by": 5,
+    "has_dimension": 37,
+    "modulates": 59,
+    "suggests": 8
+  },
+  "fetch_errors": [],
+  "outputs": {
+    "sqlite_db": "D:\\gitee\\depression_kg_template\\output\\depression_kg.db",
+    "documents_csv": "D:\\gitee\\depression_kg_template\\output\\documents.csv",
+    "entities_csv": "D:\\gitee\\depression_kg_template\\output\\entities.csv",
+    "relations_csv": "D:\\gitee\\depression_kg_template\\output\\relations.csv"
+  }
+}

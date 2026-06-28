@@ -1,0 +1,4594 @@
+[
+  {
+    "name": "depressive disorder",
+    "type": "disease",
+    "aliases": [
+      "depression disorder"
+    ],
+    "description": "A depressive disorder umbrella concept."
+  },
+  {
+    "name": "major depressive disorder",
+    "type": "disease",
+    "aliases": [
+      "mdd",
+      "major depression",
+      "unipolar depression"
+    ],
+    "description": "Major depressive disorder."
+  },
+  {
+    "name": "treatment-resistant depression",
+    "type": "disease",
+    "aliases": [
+      "trd"
+    ],
+    "description": "Depression with insufficient response to prior treatment."
+  },
+  {
+    "name": "sadness",
+    "type": "symptom",
+    "aliases": [
+      "low mood"
+    ],
+    "description": "Depressed or sad mood."
+  },
+  {
+    "name": "anhedonia",
+    "type": "symptom",
+    "aliases": [
+      "loss of interest",
+      "loss of pleasure"
+    ],
+    "description": "Reduced interest or pleasure."
+  },
+  {
+    "name": "fatigue",
+    "type": "symptom",
+    "aliases": [
+      "tiredness"
+    ],
+    "description": "Low energy or fatigue."
+  },
+  {
+    "name": "sleep disturbance",
+    "type": "symptom",
+    "aliases": [
+      "insomnia",
+      "sleep problems"
+    ],
+    "description": "Sleep-related disturbance."
+  },
+  {
+    "name": "psychological stress",
+    "type": "risk_factor",
+    "aliases": [
+      "stress"
+    ],
+    "description": "Psychological stress exposure."
+  },
+  {
+    "name": "social isolation",
+    "type": "risk_factor",
+    "aliases": [
+      "loneliness"
+    ],
+    "description": "Reduced social connectedness."
+  },
+  {
+    "name": "family history",
+    "type": "risk_factor",
+    "aliases": [
+      "genetic predisposition"
+    ],
+    "description": "Family history of mental disorders."
+  },
+  {
+    "name": "psychotherapy",
+    "type": "treatment",
+    "aliases": [
+      "talk therapy"
+    ],
+    "description": "Psychological treatment."
+  },
+  {
+    "name": "cognitive behavioral therapy",
+    "type": "treatment",
+    "aliases": [
+      "cbt"
+    ],
+    "description": "A common psychotherapy for depression."
+  },
+  {
+    "name": "exercise",
+    "type": "treatment",
+    "aliases": [
+      "physical activity"
+    ],
+    "description": "Exercise-based intervention."
+  },
+  {
+    "name": "fluoxetine",
+    "type": "drug",
+    "aliases": [
+      "prozac"
+    ],
+    "description": "An SSRI antidepressant."
+  },
+  {
+    "name": "sertraline",
+    "type": "drug",
+    "aliases": [
+      "zoloft"
+    ],
+    "description": "An SSRI antidepressant."
+  },
+  {
+    "name": "escitalopram",
+    "type": "drug",
+    "aliases": [
+      "lexapro"
+    ],
+    "description": "An SSRI antidepressant."
+  },
+  {
+    "name": "phq-9",
+    "type": "scale",
+    "aliases": [
+      "patient health questionnaire-9"
+    ],
+    "description": "Depression screening instrument."
+  },
+  {
+    "name": "hamd",
+    "type": "scale",
+    "aliases": [
+      "hamilton depression rating scale"
+    ],
+    "description": "Clinician-rated depression scale."
+  },
+  {
+    "name": "eeg feature",
+    "type": "biomarker",
+    "aliases": [
+      "eeg",
+      "electroencephalography feature"
+    ],
+    "description": "EEG-derived biomarker or feature."
+  },
+  {
+    "name": "hopelessness",
+    "type": "symptom",
+    "aliases": [
+      "despair"
+    ],
+    "description": "Feeling of hopelessness."
+  },
+  {
+    "name": "guilt",
+    "type": "symptom",
+    "aliases": [
+      "feelings of guilt"
+    ],
+    "description": "Excessive guilt."
+  },
+  {
+    "name": "suicidal thoughts",
+    "type": "symptom",
+    "aliases": [
+      "suicidal ideation"
+    ],
+    "description": "Thoughts of self-harm."
+  },
+  {
+    "name": "appetite change",
+    "type": "symptom",
+    "aliases": [
+      "loss of appetite",
+      "increased appetite"
+    ],
+    "description": "Changes in appetite."
+  },
+  {
+    "name": "weight loss",
+    "type": "symptom",
+    "aliases": [
+      "unintended weight loss"
+    ],
+    "description": "Unintended weight loss."
+  },
+  {
+    "name": "concentration problems",
+    "type": "symptom",
+    "aliases": [
+      "difficulty concentrating"
+    ],
+    "description": "Difficulty concentrating."
+  },
+  {
+    "name": "antidepressants",
+    "type": "treatment",
+    "aliases": [
+      "antidepressant medication"
+    ],
+    "description": "Pharmacological treatment for depression."
+  },
+  {
+    "name": "electroconvulsive therapy",
+    "type": "treatment",
+    "aliases": [
+      "ect"
+    ],
+    "description": "Electrical stimulation treatment."
+  },
+  {
+    "name": "transcranial magnetic stimulation",
+    "type": "treatment",
+    "aliases": [
+      "tms"
+    ],
+    "description": "Magnetic stimulation treatment."
+  },
+  {
+    "name": "paroxetine",
+    "type": "drug",
+    "aliases": [
+      "paxil"
+    ],
+    "description": "An SSRI antidepressant."
+  },
+  {
+    "name": "venlafaxine",
+    "type": "drug",
+    "aliases": [
+      "effexor"
+    ],
+    "description": "An SNRI antidepressant."
+  },
+  {
+    "name": "bupropion",
+    "type": "drug",
+    "aliases": [
+      "wellbutrin"
+    ],
+    "description": "An NDRI antidepressant."
+  },
+  {
+    "name": "bipolar disorder",
+    "type": "disease",
+    "aliases": [
+      "manic depression"
+    ],
+    "description": "Mood disorder with manic and depressive episodes."
+  },
+  {
+    "name": "dysthymia",
+    "type": "disease",
+    "aliases": [
+      "persistent depressive disorder"
+    ],
+    "description": "Chronic mild depression."
+  },
+  {
+    "name": "postpartum depression",
+    "type": "disease",
+    "aliases": [
+      "perinatal depression"
+    ],
+    "description": "Depression after childbirth."
+  },
+  {
+    "name": "seasonal affective disorder",
+    "type": "disease",
+    "aliases": [
+      "sad"
+    ],
+    "description": "Depression related to seasonal changes."
+  },
+  {
+    "name": "trauma",
+    "type": "risk_factor",
+    "aliases": [
+      "childhood trauma"
+    ],
+    "description": "History of traumatic experiences."
+  },
+  {
+    "name": "inflammation",
+    "type": "risk_factor",
+    "aliases": [
+      "chronic inflammation"
+    ],
+    "description": "Inflammatory processes."
+  },
+  {
+    "name": "beck depression inventory",
+    "type": "scale",
+    "aliases": [
+      "bdi"
+    ],
+    "description": "Self-report depression scale."
+  },
+  {
+    "name": "montgomery-asberg depression rating scale",
+    "type": "scale",
+    "aliases": [
+      "madrs"
+    ],
+    "description": "Clinician-rated depression scale."
+  },
+  {
+    "name": "cortisol",
+    "type": "biomarker",
+    "aliases": [
+      "stress hormone"
+    ],
+    "description": "Hormone biomarker for stress."
+  },
+  {
+    "name": "serotonin",
+    "type": "biomarker",
+    "aliases": [
+      "5-ht"
+    ],
+    "description": "Neurotransmitter biomarker."
+  },
+  {
+    "name": "sleep staging",
+    "type": "task",
+    "aliases": [
+      "sleep stage classification",
+      "sleep staging"
+    ],
+    "description": "The process of classifying sleep into Wake, N1, N2, N3, and REM stages."
+  },
+  {
+    "name": "rem sleep",
+    "type": "sleep_stage",
+    "aliases": [
+      "rem",
+      "rapid eye movement sleep",
+      "rapid eye movement"
+    ],
+    "description": "A sleep stage associated with vivid dreaming, rapid eye movements, and low muscle tone."
+  },
+  {
+    "name": "n1 sleep",
+    "type": "sleep_stage",
+    "aliases": [
+      "n1",
+      "stage n1",
+      "light sleep"
+    ],
+    "description": "The lightest non-REM sleep stage, often marking the transition from wakefulness to sleep."
+  },
+  {
+    "name": "n2 sleep",
+    "type": "sleep_stage",
+    "aliases": [
+      "n2",
+      "stage n2"
+    ],
+    "description": "A stable non-REM sleep stage characterized by sleep spindles and K-complexes."
+  },
+  {
+    "name": "n3 sleep",
+    "type": "sleep_stage",
+    "aliases": [
+      "n3",
+      "stage n3",
+      "deep sleep",
+      "slow wave sleep"
+    ],
+    "description": "Deep non-REM sleep characterized by slow waves and restorative processes."
+  },
+  {
+    "name": "dreaming",
+    "type": "sleep_symptom",
+    "aliases": [
+      "frequent dreaming",
+      "vivid dreams",
+      "dream a lot",
+      "many dreams"
+    ],
+    "description": "Frequent or vivid dreaming reported by the subject."
+  },
+  {
+    "name": "nocturnal awakening",
+    "type": "sleep_symptom",
+    "aliases": [
+      "wake up at night",
+      "waking up during the night",
+      "frequent awakenings",
+      "easy to wake up"
+    ],
+    "description": "Waking up repeatedly during the night."
+  },
+  {
+    "name": "sleep fragmentation",
+    "type": "sleep_pattern",
+    "aliases": [
+      "fragmented sleep",
+      "broken sleep",
+      "interrupted sleep"
+    ],
+    "description": "A disrupted sleep architecture with frequent awakenings or arousals."
+  },
+  {
+    "name": "sleep spindle",
+    "type": "eeg_feature",
+    "aliases": [
+      "sleep spindles"
+    ],
+    "description": "A hallmark EEG feature of N2 sleep."
+  },
+  {
+    "name": "k-complex",
+    "type": "eeg_feature",
+    "aliases": [
+      "k complex",
+      "k-complexes"
+    ],
+    "description": "A hallmark EEG waveform commonly seen in N2 sleep."
+  },
+  {
+    "name": "slow wave",
+    "type": "eeg_feature",
+    "aliases": [
+      "slow waves",
+      "delta wave",
+      "delta waves"
+    ],
+    "description": "A low-frequency high-amplitude EEG feature associated with N3 sleep."
+  },
+  {
+    "name": "sleep onset insomnia",
+    "type": "sleep_symptom",
+    "aliases": [
+      "initial insomnia"
+    ],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep maintenance insomnia",
+    "type": "sleep_symptom",
+    "aliases": [
+      "middle insomnia"
+    ],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "early morning awakening",
+    "type": "sleep_symptom",
+    "aliases": [
+      "ema"
+    ],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "terminal insomnia",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "non-restorative sleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "restless sleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "difficulty falling asleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "difficulty staying asleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "prolonged sleep latency",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "frequent nocturnal arousals",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "middle-of-the-night awakening",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "insufficient sleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "chronic insomnia",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "acute insomnia",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "psychophysiological insomnia",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "paradoxical insomnia",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "comorbid insomnia",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "subthreshold insomnia",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep inertia",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "morning grogginess",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "daytime sleepiness",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "excessive daytime sleepiness",
+    "type": "sleep_symptom",
+    "aliases": [
+      "eds"
+    ],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "hypersomnia",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "prolonged sleep duration",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "short sleep duration",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "irregular sleep schedule",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "social jet lag",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "jet lag disorder",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "shift work sleep disorder",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "circadian misalignment",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "delayed sleep phase",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "advanced sleep phase",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "irregular sleep-wake rhythm",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "non-24-hour sleep-wake disorder",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "weekend catch-up sleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep debt",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep deprivation",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "fragmented sleep continuity",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "reduced sleep efficiency",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "increased wake after sleep onset",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "WASO",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep state misperception",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep dissatisfaction",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "poor sleep quality",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "insufficient deep sleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "reduced rem sleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "increased rem density",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "shortened rem latency",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "prolonged rem latency",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "nightmare frequency",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "disturbing dreams",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep talking",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "somniloquy",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleepwalking",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "somnambulism",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "confusional arousals",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "night terrors",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "REM sleep behavior disorder",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "restless legs syndrome",
+    "type": "sleep_symptom",
+    "aliases": [
+      "rls"
+    ],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "periodic limb movement disorder",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "bruxism during sleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep-related teeth grinding",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep-related leg cramps",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "nocturia-related awakening",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "pain-related awakening",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "hot-flash awakening",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "anxiety-related awakening",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "panic awakening",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "rumination at bedtime",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "bedtime worry",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "pre-sleep cognitive arousal",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "pre-sleep somatic arousal",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "clock watching at night",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "fear of sleeplessness",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "conditioned arousal in bed",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "hyperarousal at bedtime",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "bedtime procrastination",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "inconsistent bedtime",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "inconsistent wake time",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "late chronotype",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "eveningness preference",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "morningness preference",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "nap dependency",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "long daytime naps",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "frequent daytime naps",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "unrefreshing naps",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "micro-sleeps",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep drunkenness",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep paralysis",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "hypnagogic hallucinations",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "hypnopompic hallucinations",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "cataplexy-like episodes",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "snoring",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "witnessed apnea",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep-disordered breathing",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "obstructive sleep apnea symptoms",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "noisy breathing during sleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "mouth breathing during sleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "dry mouth on waking",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "morning headache after sleep",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "nocturnal choking sensation",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "awakening gasping for air",
+    "type": "sleep_symptom",
+    "aliases": [],
+    "description": "Sleep-related symptom relevant to mood and emotion modeling."
+  },
+  {
+    "name": "sleep architecture disruption",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "circadian rhythm instability",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "phase delay pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "phase advance pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "bimodal sleep pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "polyphasic sleep pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "monophasic sleep pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "weekend-weekday sleep discrepancy",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "reduced slow-wave sleep",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "enhanced slow-wave sleep",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "REM fragmentation",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "NREM fragmentation",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "alpha intrusion during sleep",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "beta hyperarousal at night",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "low sleep spindle density",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "high sleep spindle density",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "reduced K-complex occurrence",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "frequent cortical arousals",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "long wake bouts at night",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "short sleep bouts",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "high sleep variability",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "low sleep regularity",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "social schedule desynchrony",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "light exposure at night",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "insufficient morning light",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "screen-related sleep delay",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "caffeine-related sleep delay",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "alcohol-related sleep disruption",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "stress-related sleep disruption",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "pain-related sleep disruption",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "noise-related sleep disruption",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "temperature-related sleep disruption",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "environmental sleep disturbance",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "caregiver sleep interruption",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "postpartum sleep disruption",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "menopause-related sleep disturbance",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "adolescent delayed phase pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "older-adult early awakening pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "hospital-associated sleep disruption",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "ICU sleep fragmentation",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "travel-related circadian disruption",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "exam-period sleep restriction",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "workload-related sleep loss",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "ruminative pre-sleep pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "anxious hypervigilant sleep pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "depressive hypersomnia pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "depressive insomnia pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "mixed insomnia-hypersomnia pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "stabilized sleep routine pattern",
+    "type": "sleep_pattern",
+    "aliases": [],
+    "description": "Sleep pattern entity for longitudinal sleep-emotion analysis."
+  },
+  {
+    "name": "wake stage",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "NREM sleep",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "stage W",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "stage R",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "micro-arousal",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "sleep cycle transition",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "first sleep cycle",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "late-night REM period",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "slow-wave rebound",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "REM rebound",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "stage transition instability",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "N1-N2 transition",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "N2-N3 transition",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "NREM-REM transition",
+    "type": "sleep_stage",
+    "aliases": [],
+    "description": "Sleep stage or transitional stage entity."
+  },
+  {
+    "name": "sleep efficiency",
+    "type": "biomarker",
+    "aliases": [
+      "se"
+    ],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "total sleep time",
+    "type": "biomarker",
+    "aliases": [
+      "tst"
+    ],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "sleep latency",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "wake after sleep onset",
+    "type": "biomarker",
+    "aliases": [
+      "waso"
+    ],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "arousal index",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "sleep spindle density",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "K-complex density",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "delta power during sleep",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "theta power during sleep",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "alpha power during sleep",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "beta power during sleep",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "REM density",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "REM latency",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "N3 proportion",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "N2 proportion",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "N1 proportion",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "heart rate variability during sleep",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "nocturnal cortisol level",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "dim light melatonin onset",
+    "type": "biomarker",
+    "aliases": [
+      "dlmo"
+    ],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "actigraphy-derived sleep regularity",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "polysomnography index",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep physiology biomarker supporting objective emotion-related sleep assessment."
+  },
+  {
+    "name": "joy",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "happiness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "cheerfulness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "contentment",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "satisfaction",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "relief",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "gratitude",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "hope",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "optimism",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "pride",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "amusement",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "awe",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "interest",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "curiosity",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "calmness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "serenity",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "tranquility",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "compassion",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "love",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "affection",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "warmth",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "trust",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "confidence",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "self-confidence",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "enthusiasm",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "excitement",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "anticipation",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "motivation",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "vitality",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional stability",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "depressed mood",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "dysphoria",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "melancholy",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "grief",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emptiness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional numbness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "anxiety",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "worry",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "apprehension",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "fear",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "panic",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "nervousness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "tension",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "irritability",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "anger",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "frustration",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "hostility",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "resentment",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "rage",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "shame",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "self-blame",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "embarrassment",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "worthlessness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "helplessness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "loneliness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "social pain",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "jealousy",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "envy",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "disappointment",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "regret",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "bitterness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "despair",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "apathy",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "amotivation",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional blunting",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "alexithymia",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional lability",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "mood swings",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "affective instability",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "tearfulness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional reactivity",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional sensitivity",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "rejection sensitivity",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "rumination",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "catastrophizing",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "self-criticism",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "self-compassion",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional avoidance",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "suppressed anger",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "suppressed sadness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "suppressed anxiety",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "social anxiety",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "performance anxiety",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "health anxiety",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "separation anxiety",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "anticipatory anxiety",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "state anxiety",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "trait anxiety",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "state anger",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "trait anger",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "persistent sadness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "mixed affective state",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "blunted positive affect",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "low positive affect",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "high negative affect",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional exhaustion",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "burnout-related affect",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "demoralization",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "discouragement",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional detachment",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional overwhelm",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "emotional pain",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "psychological distress",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "inner tension",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "restlessness",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "agitation",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "psychomotor agitation affect",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "psychomotor retardation affect",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "fear of failure",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "fear of rejection",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "fear of judgment",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "interpersonal insecurity",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "attachment anxiety",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "attachment avoidance",
+    "type": "emotion",
+    "aliases": [],
+    "description": "Emotion-related entity for affective recognition and depression KG expansion."
+  },
+  {
+    "name": "positive affect",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "negative affect",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "valence",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "arousal",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "dominance",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "emotional intensity",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "emotion granularity",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "affect variability",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "affect inertia",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "mood congruence",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "emotional clarity",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "emotional awareness",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "emotional coherence",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "affective chronometry",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "stress reactivity",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "reward sensitivity",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "punishment sensitivity",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "threat sensitivity",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "social reward sensitivity",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "emotion differentiation",
+    "type": "affect_dimension",
+    "aliases": [],
+    "description": "Affect dimension for structured emotion representation."
+  },
+  {
+    "name": "cognitive reappraisal",
+    "type": "emotion_regulation",
+    "aliases": [
+      "reappraisal"
+    ],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "expressive suppression",
+    "type": "emotion_regulation",
+    "aliases": [
+      "suppression strategy"
+    ],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "mindfulness",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "acceptance",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "problem-solving coping",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "emotion labeling",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "affect naming",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "self-soothing",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "distress tolerance",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "grounding technique",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "breathing regulation",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "progressive muscle relaxation",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "behavioral activation",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "opposite action strategy",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "attentional deployment",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "response modulation",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "situation selection",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "situation modification",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "rumination reduction",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "worry postponement",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "compassion practice",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "gratitude practice",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "sleep hygiene adherence",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "stimulus control for insomnia",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "sleep restriction therapy",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "relaxation training",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "imagery rehearsal therapy",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "biofeedback regulation",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "heart rate variability biofeedback",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "cognitive defusion",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "values-based action",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "social support seeking",
+    "type": "emotion_regulation",
+    "aliases": [],
+    "description": "Emotion regulation strategy entity."
+  },
+  {
+    "name": "PANAS",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "positive and negative affect schedule",
+    "type": "scale",
+    "aliases": [
+      "panas scale"
+    ],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "DERS",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "difficulties in emotion regulation scale",
+    "type": "scale",
+    "aliases": [
+      "ders scale"
+    ],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "ERQ",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "emotion regulation questionnaire",
+    "type": "scale",
+    "aliases": [
+      "erq scale"
+    ],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "POMS",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "profile of mood states",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "STAI",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "state-trait anxiety inventory",
+    "type": "scale",
+    "aliases": [
+      "stai scale"
+    ],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "BAI",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "beck anxiety inventory",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "GAD-7",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "PHQ-2",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "CES-D",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "HADS",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "hospital anxiety and depression scale",
+    "type": "scale",
+    "aliases": [
+      "hads scale"
+    ],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "WHO-5 well-being index",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "PSS",
+    "type": "scale",
+    "aliases": [],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "perceived stress scale",
+    "type": "scale",
+    "aliases": [
+      "pss scale"
+    ],
+    "description": "Scale used to assess emotion, stress, or affective symptoms."
+  },
+  {
+    "name": "melancholic depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Melancholic Depression is a depression-related disease entity."
+  },
+  {
+    "name": "atypical depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Atypical Depression is a depression-related disease entity."
+  },
+  {
+    "name": "psychotic depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Psychotic Depression is a depression-related disease entity."
+  },
+  {
+    "name": "catatonic depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Catatonic Depression is a depression-related disease entity."
+  },
+  {
+    "name": "anxious depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Anxious Depression is a depression-related disease entity."
+  },
+  {
+    "name": "agitated depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Agitated Depression is a depression-related disease entity."
+  },
+  {
+    "name": "retarded depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Retarded Depression is a depression-related disease entity."
+  },
+  {
+    "name": "chronic major depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Chronic Major Depression is a depression-related disease entity."
+  },
+  {
+    "name": "recurrent major depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Recurrent Major Depression is a depression-related disease entity."
+  },
+  {
+    "name": "single-episode major depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Single-Episode Major Depression is a depression-related disease entity."
+  },
+  {
+    "name": "double depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Double Depression is a depression-related disease entity."
+  },
+  {
+    "name": "subsyndromal depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Subsyndromal Depression is a depression-related disease entity."
+  },
+  {
+    "name": "minor depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Minor Depression is a depression-related disease entity."
+  },
+  {
+    "name": "masked depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Masked Depression is a depression-related disease entity."
+  },
+  {
+    "name": "endogenous depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Endogenous Depression is a depression-related disease entity."
+  },
+  {
+    "name": "reactive depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Reactive Depression is a depression-related disease entity."
+  },
+  {
+    "name": "involutional depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Involutional Depression is a depression-related disease entity."
+  },
+  {
+    "name": "vascular depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Vascular Depression is a depression-related disease entity."
+  },
+  {
+    "name": "late-life depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Late-Life Depression is a depression-related disease entity."
+  },
+  {
+    "name": "adolescent depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Adolescent Depression is a depression-related disease entity."
+  },
+  {
+    "name": "childhood depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Childhood Depression is a depression-related disease entity."
+  },
+  {
+    "name": "perimenopausal depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Perimenopausal Depression is a depression-related disease entity."
+  },
+  {
+    "name": "menopausal depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Menopausal Depression is a depression-related disease entity."
+  },
+  {
+    "name": "peripartum depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Peripartum Depression is a depression-related disease entity."
+  },
+  {
+    "name": "antenatal depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Antenatal Depression is a depression-related disease entity."
+  },
+  {
+    "name": "prenatal depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Prenatal Depression is a depression-related disease entity."
+  },
+  {
+    "name": "postnatal depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Postnatal Depression is a depression-related disease entity."
+  },
+  {
+    "name": "seasonal depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Seasonal Depression is a depression-related disease entity."
+  },
+  {
+    "name": "winter-pattern depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Winter-Pattern Depression is a depression-related disease entity."
+  },
+  {
+    "name": "summer-pattern depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Summer-Pattern Depression is a depression-related disease entity."
+  },
+  {
+    "name": "treatment-refractory depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Treatment-Refractory Depression is a depression-related disease entity."
+  },
+  {
+    "name": "partial-remission depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Partial-Remission Depression is a depression-related disease entity."
+  },
+  {
+    "name": "residual depression",
+    "type": "disease",
+    "aliases": [],
+    "description": "Residual Depression is a depression-related disease entity."
+  },
+  {
+    "name": "bipolar depression episode",
+    "type": "disease",
+    "aliases": [],
+    "description": "Bipolar Depression Episode is a depression-related disease entity."
+  },
+  {
+    "name": "depression with mixed features",
+    "type": "disease",
+    "aliases": [],
+    "description": "Depression With Mixed Features is a depression-related disease entity."
+  },
+  {
+    "name": "depression with anxious distress",
+    "type": "disease",
+    "aliases": [],
+    "description": "Depression With Anxious Distress is a depression-related disease entity."
+  },
+  {
+    "name": "depression with psychomotor changes",
+    "type": "disease",
+    "aliases": [],
+    "description": "Depression With Psychomotor Changes is a depression-related disease entity."
+  },
+  {
+    "name": "depression with somatic symptoms",
+    "type": "disease",
+    "aliases": [],
+    "description": "Depression With Somatic Symptoms is a depression-related disease entity."
+  },
+  {
+    "name": "depression with atypical features",
+    "type": "disease",
+    "aliases": [],
+    "description": "Depression With Atypical Features is a depression-related disease entity."
+  },
+  {
+    "name": "persistent low mood",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Persistent Low Mood is a depression-related symptom entity."
+  },
+  {
+    "name": "depressed affect",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Depressed Affect is a depression-related symptom entity."
+  },
+  {
+    "name": "loss of enjoyment",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Loss Of Enjoyment is a depression-related symptom entity."
+  },
+  {
+    "name": "reduced motivation",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Reduced Motivation is a depression-related symptom entity."
+  },
+  {
+    "name": "psychomotor retardation",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Psychomotor Retardation is a depression-related symptom entity."
+  },
+  {
+    "name": "psychomotor slowing",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Psychomotor Slowing is a depression-related symptom entity."
+  },
+  {
+    "name": "psychomotor agitation",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Psychomotor Agitation is a depression-related symptom entity."
+  },
+  {
+    "name": "emotional flatness",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Emotional Flatness is a depression-related symptom entity."
+  },
+  {
+    "name": "social withdrawal",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Social Withdrawal is a depression-related symptom entity."
+  },
+  {
+    "name": "crying spells",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Crying Spells is a depression-related symptom entity."
+  },
+  {
+    "name": "inner emptiness",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Inner Emptiness is a depression-related symptom entity."
+  },
+  {
+    "name": "self-loathing",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Self-Loathing is a depression-related symptom entity."
+  },
+  {
+    "name": "self-devaluation",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Self-Devaluation is a depression-related symptom entity."
+  },
+  {
+    "name": "low self-esteem",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Low Self-Esteem is a depression-related symptom entity."
+  },
+  {
+    "name": "self-reproach",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Self-Reproach is a depression-related symptom entity."
+  },
+  {
+    "name": "indecisiveness",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Indecisiveness is a depression-related symptom entity."
+  },
+  {
+    "name": "cognitive slowing",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Cognitive Slowing is a depression-related symptom entity."
+  },
+  {
+    "name": "impaired concentration",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Impaired Concentration is a depression-related symptom entity."
+  },
+  {
+    "name": "memory complaints",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Memory Complaints is a depression-related symptom entity."
+  },
+  {
+    "name": "mental fatigue",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Mental Fatigue is a depression-related symptom entity."
+  },
+  {
+    "name": "physical fatigue",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Physical Fatigue is a depression-related symptom entity."
+  },
+  {
+    "name": "low energy",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Low Energy is a depression-related symptom entity."
+  },
+  {
+    "name": "morning worsening",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Morning Worsening is a depression-related symptom entity."
+  },
+  {
+    "name": "diurnal mood variation",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Diurnal Mood Variation is a depression-related symptom entity."
+  },
+  {
+    "name": "early morning low mood",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Early Morning Low Mood is a depression-related symptom entity."
+  },
+  {
+    "name": "anxiety tension",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Anxiety Tension is a depression-related symptom entity."
+  },
+  {
+    "name": "somatic anxiety",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Somatic Anxiety is a depression-related symptom entity."
+  },
+  {
+    "name": "panic-like symptoms",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Panic-Like Symptoms is a depression-related symptom entity."
+  },
+  {
+    "name": "irritability outbursts",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Irritability Outbursts is a depression-related symptom entity."
+  },
+  {
+    "name": "reduced libido",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Reduced Libido is a depression-related symptom entity."
+  },
+  {
+    "name": "sexual dysfunction symptoms",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Sexual Dysfunction Symptoms is a depression-related symptom entity."
+  },
+  {
+    "name": "appetite loss",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Appetite Loss is a depression-related symptom entity."
+  },
+  {
+    "name": "increased appetite episodes",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Increased Appetite Episodes is a depression-related symptom entity."
+  },
+  {
+    "name": "weight gain",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Weight Gain is a depression-related symptom entity."
+  },
+  {
+    "name": "insomnia symptoms",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Insomnia Symptoms is a depression-related symptom entity."
+  },
+  {
+    "name": "hypersomnia symptoms",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Hypersomnia Symptoms is a depression-related symptom entity."
+  },
+  {
+    "name": "nonrestorative sleep symptoms",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Nonrestorative Sleep Symptoms is a depression-related symptom entity."
+  },
+  {
+    "name": "sleep continuity complaints",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Sleep Continuity Complaints is a depression-related symptom entity."
+  },
+  {
+    "name": "feelings of failure",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Feelings Of Failure is a depression-related symptom entity."
+  },
+  {
+    "name": "pessimism",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Pessimism is a depression-related symptom entity."
+  },
+  {
+    "name": "demoralized mood",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Demoralized Mood is a depression-related symptom entity."
+  },
+  {
+    "name": "hopeless cognition",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Hopeless Cognition is a depression-related symptom entity."
+  },
+  {
+    "name": "helpless cognition",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Helpless Cognition is a depression-related symptom entity."
+  },
+  {
+    "name": "worthlessness feelings",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Worthlessness Feelings is a depression-related symptom entity."
+  },
+  {
+    "name": "survivor guilt",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Survivor Guilt is a depression-related symptom entity."
+  },
+  {
+    "name": "anticipatory dread",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Anticipatory Dread is a depression-related symptom entity."
+  },
+  {
+    "name": "death preoccupation",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Death Preoccupation is a depression-related symptom entity."
+  },
+  {
+    "name": "passive death wish",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Passive Death Wish is a depression-related symptom entity."
+  },
+  {
+    "name": "active suicidal ideation",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Active Suicidal Ideation is a depression-related symptom entity."
+  },
+  {
+    "name": "suicidal planning",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Suicidal Planning is a depression-related symptom entity."
+  },
+  {
+    "name": "suicidal intent",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Suicidal Intent is a depression-related symptom entity."
+  },
+  {
+    "name": "self-harm urges",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Self-Harm Urges is a depression-related symptom entity."
+  },
+  {
+    "name": "self-harm behavior",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Self-Harm Behavior is a depression-related symptom entity."
+  },
+  {
+    "name": "functional impairment",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Functional Impairment is a depression-related symptom entity."
+  },
+  {
+    "name": "occupational impairment",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Occupational Impairment is a depression-related symptom entity."
+  },
+  {
+    "name": "academic impairment",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Academic Impairment is a depression-related symptom entity."
+  },
+  {
+    "name": "interpersonal impairment",
+    "type": "symptom",
+    "aliases": [],
+    "description": "Interpersonal Impairment is a depression-related symptom entity."
+  },
+  {
+    "name": "childhood adversity",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Childhood Adversity is a depression-related risk_factor entity."
+  },
+  {
+    "name": "adverse childhood experiences",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Adverse Childhood Experiences is a depression-related risk_factor entity."
+  },
+  {
+    "name": "emotional abuse history",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Emotional Abuse History is a depression-related risk_factor entity."
+  },
+  {
+    "name": "physical abuse history",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Physical Abuse History is a depression-related risk_factor entity."
+  },
+  {
+    "name": "sexual abuse history",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Sexual Abuse History is a depression-related risk_factor entity."
+  },
+  {
+    "name": "neglect history",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Neglect History is a depression-related risk_factor entity."
+  },
+  {
+    "name": "bullying victimization",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Bullying Victimization is a depression-related risk_factor entity."
+  },
+  {
+    "name": "interpersonal trauma",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Interpersonal Trauma is a depression-related risk_factor entity."
+  },
+  {
+    "name": "bereavement",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Bereavement is a depression-related risk_factor entity."
+  },
+  {
+    "name": "relationship breakup",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Relationship Breakup is a depression-related risk_factor entity."
+  },
+  {
+    "name": "divorce stress",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Divorce Stress is a depression-related risk_factor entity."
+  },
+  {
+    "name": "caregiver burden",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Caregiver Burden is a depression-related risk_factor entity."
+  },
+  {
+    "name": "chronic stress exposure",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Chronic Stress Exposure is a depression-related risk_factor entity."
+  },
+  {
+    "name": "occupational stress",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Occupational Stress is a depression-related risk_factor entity."
+  },
+  {
+    "name": "job insecurity",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Job Insecurity is a depression-related risk_factor entity."
+  },
+  {
+    "name": "unemployment",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Unemployment is a depression-related risk_factor entity."
+  },
+  {
+    "name": "financial strain",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Financial Strain is a depression-related risk_factor entity."
+  },
+  {
+    "name": "debt burden",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Debt Burden is a depression-related risk_factor entity."
+  },
+  {
+    "name": "low social support",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Low Social Support is a depression-related risk_factor entity."
+  },
+  {
+    "name": "perceived loneliness",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Perceived Loneliness is a depression-related risk_factor entity."
+  },
+  {
+    "name": "social conflict",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Social Conflict is a depression-related risk_factor entity."
+  },
+  {
+    "name": "family conflict",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Family Conflict is a depression-related risk_factor entity."
+  },
+  {
+    "name": "sleep deprivation risk",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Sleep Deprivation Risk is a depression-related risk_factor entity."
+  },
+  {
+    "name": "shift work exposure",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Shift Work Exposure is a depression-related risk_factor entity."
+  },
+  {
+    "name": "circadian disruption risk",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Circadian Disruption Risk is a depression-related risk_factor entity."
+  },
+  {
+    "name": "sedentary lifestyle",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Sedentary Lifestyle is a depression-related risk_factor entity."
+  },
+  {
+    "name": "poor diet quality",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Poor Diet Quality is a depression-related risk_factor entity."
+  },
+  {
+    "name": "alcohol misuse",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Alcohol Misuse is a depression-related risk_factor entity."
+  },
+  {
+    "name": "substance misuse",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Substance Misuse is a depression-related risk_factor entity."
+  },
+  {
+    "name": "nicotine dependence",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Nicotine Dependence is a depression-related risk_factor entity."
+  },
+  {
+    "name": "chronic pain",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Chronic Pain is a depression-related risk_factor entity."
+  },
+  {
+    "name": "inflammatory burden",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Inflammatory Burden is a depression-related risk_factor entity."
+  },
+  {
+    "name": "metabolic syndrome",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Metabolic Syndrome is a depression-related risk_factor entity."
+  },
+  {
+    "name": "obesity",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Obesity is a depression-related risk_factor entity."
+  },
+  {
+    "name": "diabetes mellitus",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Diabetes Mellitus is a depression-related risk_factor entity."
+  },
+  {
+    "name": "cardiovascular disease",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Cardiovascular Disease is a depression-related risk_factor entity."
+  },
+  {
+    "name": "thyroid dysfunction",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Thyroid Dysfunction is a depression-related risk_factor entity."
+  },
+  {
+    "name": "vitamin d deficiency",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Vitamin D Deficiency is a depression-related risk_factor entity."
+  },
+  {
+    "name": "iron deficiency",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Iron Deficiency is a depression-related risk_factor entity."
+  },
+  {
+    "name": "postpartum hormonal fluctuation",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Postpartum Hormonal Fluctuation is a depression-related risk_factor entity."
+  },
+  {
+    "name": "perimenopausal hormonal change",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Perimenopausal Hormonal Change is a depression-related risk_factor entity."
+  },
+  {
+    "name": "genetic vulnerability",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Genetic Vulnerability is a depression-related risk_factor entity."
+  },
+  {
+    "name": "polygenic risk",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Polygenic Risk is a depression-related risk_factor entity."
+  },
+  {
+    "name": "family psychiatric history",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Family Psychiatric History is a depression-related risk_factor entity."
+  },
+  {
+    "name": "comorbid anxiety disorder",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Comorbid Anxiety Disorder is a depression-related risk_factor entity."
+  },
+  {
+    "name": "personality vulnerability",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Personality Vulnerability is a depression-related risk_factor entity."
+  },
+  {
+    "name": "high neuroticism",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "High Neuroticism is a depression-related risk_factor entity."
+  },
+  {
+    "name": "perfectionism trait",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Perfectionism Trait is a depression-related risk_factor entity."
+  },
+  {
+    "name": "rumination tendency",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Rumination Tendency is a depression-related risk_factor entity."
+  },
+  {
+    "name": "negative cognitive bias",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Negative Cognitive Bias is a depression-related risk_factor entity."
+  },
+  {
+    "name": "learned helplessness pattern",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Learned Helplessness Pattern is a depression-related risk_factor entity."
+  },
+  {
+    "name": "stigma exposure",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Stigma Exposure is a depression-related risk_factor entity."
+  },
+  {
+    "name": "limited access to care",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Limited Access To Care is a depression-related risk_factor entity."
+  },
+  {
+    "name": "treatment nonadherence risk",
+    "type": "risk_factor",
+    "aliases": [],
+    "description": "Treatment Nonadherence Risk is a depression-related risk_factor entity."
+  },
+  {
+    "name": "behavioral activation therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Behavioral Activation Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "interpersonal psychotherapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Interpersonal Psychotherapy is a depression-related treatment entity."
+  },
+  {
+    "name": "problem-solving therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Problem-Solving Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "acceptance and commitment therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Acceptance And Commitment Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "dialectical behavior therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Dialectical Behavior Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "mindfulness-based cognitive therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Mindfulness-Based Cognitive Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "metacognitive therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Metacognitive Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "schema therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Schema Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "compassion-focused therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Compassion-Focused Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "short-term psychodynamic therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Short-Term Psychodynamic Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "supportive psychotherapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Supportive Psychotherapy is a depression-related treatment entity."
+  },
+  {
+    "name": "group psychotherapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Group Psychotherapy is a depression-related treatment entity."
+  },
+  {
+    "name": "family therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Family Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "couples therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Couples Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "collaborative care model",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Collaborative Care Model is a depression-related treatment entity."
+  },
+  {
+    "name": "stepped care model",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Stepped Care Model is a depression-related treatment entity."
+  },
+  {
+    "name": "digital cognitive behavioral therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Digital Cognitive Behavioral Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "internet-based psychotherapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Internet-Based Psychotherapy is a depression-related treatment entity."
+  },
+  {
+    "name": "guided self-help therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Guided Self-Help Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "exercise prescription",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Exercise Prescription is a depression-related treatment entity."
+  },
+  {
+    "name": "aerobic exercise intervention",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Aerobic Exercise Intervention is a depression-related treatment entity."
+  },
+  {
+    "name": "resistance training intervention",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Resistance Training Intervention is a depression-related treatment entity."
+  },
+  {
+    "name": "sleep hygiene intervention",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Sleep Hygiene Intervention is a depression-related treatment entity."
+  },
+  {
+    "name": "chronotherapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Chronotherapy is a depression-related treatment entity."
+  },
+  {
+    "name": "light therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Light Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "wake therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Wake Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "cognitive remediation",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Cognitive Remediation is a depression-related treatment entity."
+  },
+  {
+    "name": "social rhythm therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Social Rhythm Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "psychoeducation intervention",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Psychoeducation Intervention is a depression-related treatment entity."
+  },
+  {
+    "name": "medication management",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Medication Management is a depression-related treatment entity."
+  },
+  {
+    "name": "combination therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Combination Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "augmentation strategy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Augmentation Strategy is a depression-related treatment entity."
+  },
+  {
+    "name": "maintenance therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Maintenance Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "relapse prevention program",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Relapse Prevention Program is a depression-related treatment entity."
+  },
+  {
+    "name": "measurement-based care",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Measurement-Based Care is a depression-related treatment entity."
+  },
+  {
+    "name": "transcranial direct current stimulation",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Transcranial Direct Current Stimulation is a depression-related treatment entity."
+  },
+  {
+    "name": "vagus nerve stimulation",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Vagus Nerve Stimulation is a depression-related treatment entity."
+  },
+  {
+    "name": "deep brain stimulation",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Deep Brain Stimulation is a depression-related treatment entity."
+  },
+  {
+    "name": "ketamine-assisted therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Ketamine-Assisted Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "esketamine therapy",
+    "type": "treatment",
+    "aliases": [],
+    "description": "Esketamine Therapy is a depression-related treatment entity."
+  },
+  {
+    "name": "citalopram",
+    "type": "drug",
+    "aliases": [],
+    "description": "Citalopram is a depression-related drug entity."
+  },
+  {
+    "name": "fluvoxamine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Fluvoxamine is a depression-related drug entity."
+  },
+  {
+    "name": "duloxetine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Duloxetine is a depression-related drug entity."
+  },
+  {
+    "name": "desvenlafaxine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Desvenlafaxine is a depression-related drug entity."
+  },
+  {
+    "name": "levomilnacipran",
+    "type": "drug",
+    "aliases": [],
+    "description": "Levomilnacipran is a depression-related drug entity."
+  },
+  {
+    "name": "milnacipran",
+    "type": "drug",
+    "aliases": [],
+    "description": "Milnacipran is a depression-related drug entity."
+  },
+  {
+    "name": "mirtazapine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Mirtazapine is a depression-related drug entity."
+  },
+  {
+    "name": "agomelatine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Agomelatine is a depression-related drug entity."
+  },
+  {
+    "name": "vortioxetine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Vortioxetine is a depression-related drug entity."
+  },
+  {
+    "name": "vilazodone",
+    "type": "drug",
+    "aliases": [],
+    "description": "Vilazodone is a depression-related drug entity."
+  },
+  {
+    "name": "trazodone",
+    "type": "drug",
+    "aliases": [],
+    "description": "Trazodone is a depression-related drug entity."
+  },
+  {
+    "name": "nefazodone",
+    "type": "drug",
+    "aliases": [],
+    "description": "Nefazodone is a depression-related drug entity."
+  },
+  {
+    "name": "reboxetine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Reboxetine is a depression-related drug entity."
+  },
+  {
+    "name": "maprotiline",
+    "type": "drug",
+    "aliases": [],
+    "description": "Maprotiline is a depression-related drug entity."
+  },
+  {
+    "name": "amitriptyline",
+    "type": "drug",
+    "aliases": [],
+    "description": "Amitriptyline is a depression-related drug entity."
+  },
+  {
+    "name": "nortriptyline",
+    "type": "drug",
+    "aliases": [],
+    "description": "Nortriptyline is a depression-related drug entity."
+  },
+  {
+    "name": "imipramine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Imipramine is a depression-related drug entity."
+  },
+  {
+    "name": "clomipramine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Clomipramine is a depression-related drug entity."
+  },
+  {
+    "name": "desipramine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Desipramine is a depression-related drug entity."
+  },
+  {
+    "name": "doxepin",
+    "type": "drug",
+    "aliases": [],
+    "description": "Doxepin is a depression-related drug entity."
+  },
+  {
+    "name": "trimipramine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Trimipramine is a depression-related drug entity."
+  },
+  {
+    "name": "protriptyline",
+    "type": "drug",
+    "aliases": [],
+    "description": "Protriptyline is a depression-related drug entity."
+  },
+  {
+    "name": "phenelzine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Phenelzine is a depression-related drug entity."
+  },
+  {
+    "name": "tranylcypromine",
+    "type": "drug",
+    "aliases": [],
+    "description": "Tranylcypromine is a depression-related drug entity."
+  },
+  {
+    "name": "isocarboxazid",
+    "type": "drug",
+    "aliases": [],
+    "description": "Isocarboxazid is a depression-related drug entity."
+  },
+  {
+    "name": "moclobemide",
+    "type": "drug",
+    "aliases": [],
+    "description": "Moclobemide is a depression-related drug entity."
+  },
+  {
+    "name": "selegiline transdermal system",
+    "type": "drug",
+    "aliases": [],
+    "description": "Selegiline Transdermal System is a depression-related drug entity."
+  },
+  {
+    "name": "lithium augmentation",
+    "type": "drug",
+    "aliases": [],
+    "description": "Lithium Augmentation is a depression-related drug entity."
+  },
+  {
+    "name": "aripiprazole augmentation",
+    "type": "drug",
+    "aliases": [],
+    "description": "Aripiprazole Augmentation is a depression-related drug entity."
+  },
+  {
+    "name": "quetiapine augmentation",
+    "type": "drug",
+    "aliases": [],
+    "description": "Quetiapine Augmentation is a depression-related drug entity."
+  },
+  {
+    "name": "brexpiprazole augmentation",
+    "type": "drug",
+    "aliases": [],
+    "description": "Brexpiprazole Augmentation is a depression-related drug entity."
+  },
+  {
+    "name": "olanzapine-fluoxetine combination",
+    "type": "drug",
+    "aliases": [],
+    "description": "Olanzapine-Fluoxetine Combination is a depression-related drug entity."
+  },
+  {
+    "name": "lamotrigine augmentation",
+    "type": "drug",
+    "aliases": [],
+    "description": "Lamotrigine Augmentation is a depression-related drug entity."
+  },
+  {
+    "name": "buspirone augmentation",
+    "type": "drug",
+    "aliases": [],
+    "description": "Buspirone Augmentation is a depression-related drug entity."
+  },
+  {
+    "name": "thyroid hormone augmentation",
+    "type": "drug",
+    "aliases": [],
+    "description": "Thyroid Hormone Augmentation is a depression-related drug entity."
+  },
+  {
+    "name": "ketamine infusion",
+    "type": "drug",
+    "aliases": [],
+    "description": "Ketamine Infusion is a depression-related drug entity."
+  },
+  {
+    "name": "esketamine nasal spray",
+    "type": "drug",
+    "aliases": [],
+    "description": "Esketamine Nasal Spray is a depression-related drug entity."
+  },
+  {
+    "name": "modafinil augmentation",
+    "type": "drug",
+    "aliases": [],
+    "description": "Modafinil Augmentation is a depression-related drug entity."
+  },
+  {
+    "name": "methylphenidate augmentation",
+    "type": "drug",
+    "aliases": [],
+    "description": "Methylphenidate Augmentation is a depression-related drug entity."
+  },
+  {
+    "name": "quick inventory of depressive symptomatology",
+    "type": "scale",
+    "aliases": [],
+    "description": "Quick Inventory Of Depressive Symptomatology is a depression-related scale entity."
+  },
+  {
+    "name": "qids",
+    "type": "scale",
+    "aliases": [],
+    "description": "Qids is a depression-related scale entity."
+  },
+  {
+    "name": "patient health questionnaire-8",
+    "type": "scale",
+    "aliases": [],
+    "description": "Patient Health Questionnaire-8 is a depression-related scale entity."
+  },
+  {
+    "name": "phq-8",
+    "type": "scale",
+    "aliases": [],
+    "description": "Phq-8 is a depression-related scale entity."
+  },
+  {
+    "name": "center for epidemiologic studies depression scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Center For Epidemiologic Studies Depression Scale is a depression-related scale entity."
+  },
+  {
+    "name": "ces-d scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Ces-D Scale is a depression-related scale entity."
+  },
+  {
+    "name": "zung self-rating depression scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Zung Self-Rating Depression Scale is a depression-related scale entity."
+  },
+  {
+    "name": "sds depression scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Sds Depression Scale is a depression-related scale entity."
+  },
+  {
+    "name": "geriatric depression scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Geriatric Depression Scale is a depression-related scale entity."
+  },
+  {
+    "name": "gds-15",
+    "type": "scale",
+    "aliases": [],
+    "description": "Gds-15 is a depression-related scale entity."
+  },
+  {
+    "name": "gds-30",
+    "type": "scale",
+    "aliases": [],
+    "description": "Gds-30 is a depression-related scale entity."
+  },
+  {
+    "name": "edinburgh postnatal depression scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Edinburgh Postnatal Depression Scale is a depression-related scale entity."
+  },
+  {
+    "name": "epds",
+    "type": "scale",
+    "aliases": [],
+    "description": "Epds is a depression-related scale entity."
+  },
+  {
+    "name": "hospital depression subscale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Hospital Depression Subscale is a depression-related scale entity."
+  },
+  {
+    "name": "inventory of depressive symptomatology",
+    "type": "scale",
+    "aliases": [],
+    "description": "Inventory Of Depressive Symptomatology is a depression-related scale entity."
+  },
+  {
+    "name": "ids",
+    "type": "scale",
+    "aliases": [],
+    "description": "Ids is a depression-related scale entity."
+  },
+  {
+    "name": "ids-sr",
+    "type": "scale",
+    "aliases": [],
+    "description": "Ids-Sr is a depression-related scale entity."
+  },
+  {
+    "name": "hamilton anxiety scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Hamilton Anxiety Scale is a depression-related scale entity."
+  },
+  {
+    "name": "hama",
+    "type": "scale",
+    "aliases": [],
+    "description": "Hama is a depression-related scale entity."
+  },
+  {
+    "name": "clinical global impression severity",
+    "type": "scale",
+    "aliases": [],
+    "description": "Clinical Global Impression Severity is a depression-related scale entity."
+  },
+  {
+    "name": "cgi-s",
+    "type": "scale",
+    "aliases": [],
+    "description": "Cgi-S is a depression-related scale entity."
+  },
+  {
+    "name": "clinical global impression improvement",
+    "type": "scale",
+    "aliases": [],
+    "description": "Clinical Global Impression Improvement is a depression-related scale entity."
+  },
+  {
+    "name": "cgi-i",
+    "type": "scale",
+    "aliases": [],
+    "description": "Cgi-I is a depression-related scale entity."
+  },
+  {
+    "name": "columbia suicide severity rating scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Columbia Suicide Severity Rating Scale is a depression-related scale entity."
+  },
+  {
+    "name": "cssrs",
+    "type": "scale",
+    "aliases": [],
+    "description": "Cssrs is a depression-related scale entity."
+  },
+  {
+    "name": "beck scale for suicide ideation",
+    "type": "scale",
+    "aliases": [],
+    "description": "Beck Scale For Suicide Ideation is a depression-related scale entity."
+  },
+  {
+    "name": "bss",
+    "type": "scale",
+    "aliases": [],
+    "description": "Bss is a depression-related scale entity."
+  },
+  {
+    "name": "suicidal ideation attributes scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Suicidal Ideation Attributes Scale is a depression-related scale entity."
+  },
+  {
+    "name": "sidas",
+    "type": "scale",
+    "aliases": [],
+    "description": "Sidas is a depression-related scale entity."
+  },
+  {
+    "name": "quality of life enjoyment and satisfaction questionnaire",
+    "type": "scale",
+    "aliases": [],
+    "description": "Quality Of Life Enjoyment And Satisfaction Questionnaire is a depression-related scale entity."
+  },
+  {
+    "name": "q-les-q",
+    "type": "scale",
+    "aliases": [],
+    "description": "Q-Les-Q is a depression-related scale entity."
+  },
+  {
+    "name": "sheehan disability scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Sheehan Disability Scale is a depression-related scale entity."
+  },
+  {
+    "name": "sds disability",
+    "type": "scale",
+    "aliases": [],
+    "description": "Sds Disability is a depression-related scale entity."
+  },
+  {
+    "name": "work and social adjustment scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Work And Social Adjustment Scale is a depression-related scale entity."
+  },
+  {
+    "name": "wsas",
+    "type": "scale",
+    "aliases": [],
+    "description": "Wsas is a depression-related scale entity."
+  },
+  {
+    "name": "insomnia severity index",
+    "type": "scale",
+    "aliases": [],
+    "description": "Insomnia Severity Index is a depression-related scale entity."
+  },
+  {
+    "name": "isi",
+    "type": "scale",
+    "aliases": [],
+    "description": "Isi is a depression-related scale entity."
+  },
+  {
+    "name": "pittsburgh sleep quality index",
+    "type": "scale",
+    "aliases": [],
+    "description": "Pittsburgh Sleep Quality Index is a depression-related scale entity."
+  },
+  {
+    "name": "psqi",
+    "type": "scale",
+    "aliases": [],
+    "description": "Psqi is a depression-related scale entity."
+  },
+  {
+    "name": "epworth sleepiness scale",
+    "type": "scale",
+    "aliases": [],
+    "description": "Epworth Sleepiness Scale is a depression-related scale entity."
+  },
+  {
+    "name": "ess",
+    "type": "scale",
+    "aliases": [],
+    "description": "Ess is a depression-related scale entity."
+  },
+  {
+    "name": "montreal cognitive assessment",
+    "type": "scale",
+    "aliases": [],
+    "description": "Montreal Cognitive Assessment is a depression-related scale entity."
+  },
+  {
+    "name": "moca",
+    "type": "scale",
+    "aliases": [],
+    "description": "Moca is a depression-related scale entity."
+  },
+  {
+    "name": "mini-mental state examination",
+    "type": "scale",
+    "aliases": [],
+    "description": "Mini-Mental State Examination is a depression-related scale entity."
+  },
+  {
+    "name": "mmse",
+    "type": "scale",
+    "aliases": [],
+    "description": "Mmse is a depression-related scale entity."
+  },
+  {
+    "name": "brain-derived neurotrophic factor",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Brain-Derived Neurotrophic Factor is a depression-related biomarker entity."
+  },
+  {
+    "name": "bdnf",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Bdnf is a depression-related biomarker entity."
+  },
+  {
+    "name": "c-reactive protein",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "C-Reactive Protein is a depression-related biomarker entity."
+  },
+  {
+    "name": "crp",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Crp is a depression-related biomarker entity."
+  },
+  {
+    "name": "interleukin-6",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Interleukin-6 is a depression-related biomarker entity."
+  },
+  {
+    "name": "il-6",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Il-6 is a depression-related biomarker entity."
+  },
+  {
+    "name": "tumor necrosis factor alpha",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Tumor Necrosis Factor Alpha is a depression-related biomarker entity."
+  },
+  {
+    "name": "tnf-alpha",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Tnf-Alpha is a depression-related biomarker entity."
+  },
+  {
+    "name": "interleukin-1 beta",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Interleukin-1 Beta is a depression-related biomarker entity."
+  },
+  {
+    "name": "il-1beta",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Il-1Beta is a depression-related biomarker entity."
+  },
+  {
+    "name": "kynurenine",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Kynurenine is a depression-related biomarker entity."
+  },
+  {
+    "name": "kynurenine-tryptophan ratio",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Kynurenine-Tryptophan Ratio is a depression-related biomarker entity."
+  },
+  {
+    "name": "tryptophan",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Tryptophan is a depression-related biomarker entity."
+  },
+  {
+    "name": "cortisol awakening response",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Cortisol Awakening Response is a depression-related biomarker entity."
+  },
+  {
+    "name": "diurnal cortisol slope",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Diurnal Cortisol Slope is a depression-related biomarker entity."
+  },
+  {
+    "name": "acth",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Acth is a depression-related biomarker entity."
+  },
+  {
+    "name": "thyroid-stimulating hormone",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Thyroid-Stimulating Hormone is a depression-related biomarker entity."
+  },
+  {
+    "name": "tsh",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Tsh is a depression-related biomarker entity."
+  },
+  {
+    "name": "free thyroxine",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Free Thyroxine is a depression-related biomarker entity."
+  },
+  {
+    "name": "free triiodothyronine",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Free Triiodothyronine is a depression-related biomarker entity."
+  },
+  {
+    "name": "heart rate variability",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Heart Rate Variability is a depression-related biomarker entity."
+  },
+  {
+    "name": "resting heart rate",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Resting Heart Rate is a depression-related biomarker entity."
+  },
+  {
+    "name": "electrodermal activity",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Electrodermal Activity is a depression-related biomarker entity."
+  },
+  {
+    "name": "frontal alpha asymmetry",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Frontal Alpha Asymmetry is a depression-related biomarker entity."
+  },
+  {
+    "name": "default mode network connectivity",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Default Mode Network Connectivity is a depression-related biomarker entity."
+  },
+  {
+    "name": "amygdala reactivity",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Amygdala Reactivity is a depression-related biomarker entity."
+  },
+  {
+    "name": "hippocampal volume",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Hippocampal Volume is a depression-related biomarker entity."
+  },
+  {
+    "name": "anterior cingulate activity",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Anterior Cingulate Activity is a depression-related biomarker entity."
+  },
+  {
+    "name": "reward prediction error signal",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Reward Prediction Error Signal is a depression-related biomarker entity."
+  },
+  {
+    "name": "sleep spindle activity",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Sleep Spindle Activity is a depression-related biomarker entity."
+  },
+  {
+    "name": "slow wave activity",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Slow Wave Activity is a depression-related biomarker entity."
+  },
+  {
+    "name": "rem theta activity",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Rem Theta Activity is a depression-related biomarker entity."
+  },
+  {
+    "name": "serum ferritin",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Serum Ferritin is a depression-related biomarker entity."
+  },
+  {
+    "name": "vitamin d level",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Vitamin D Level is a depression-related biomarker entity."
+  },
+  {
+    "name": "omega-3 index",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Omega-3 Index is a depression-related biomarker entity."
+  },
+  {
+    "name": "fasting glucose",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Fasting Glucose is a depression-related biomarker entity."
+  },
+  {
+    "name": "hba1c",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Hba1C is a depression-related biomarker entity."
+  },
+  {
+    "name": "body mass index",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Body Mass Index is a depression-related biomarker entity."
+  },
+  {
+    "name": "waist circumference",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Waist Circumference is a depression-related biomarker entity."
+  },
+  {
+    "name": "blood pressure variability",
+    "type": "biomarker",
+    "aliases": [],
+    "description": "Blood Pressure Variability is a depression-related biomarker entity."
+  }
+]
